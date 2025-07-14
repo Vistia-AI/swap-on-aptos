@@ -1,0 +1,5184 @@
+[
+  {
+    "version": 0,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDT",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/usdt.svg",
+      "name": "Tether USD",
+      "source": "layerzero",
+      "symbol": "USDT",
+      "symbolWithBridge": "zUSDT",
+      "reserve": "34493681708",
+      "reserveUsd": "34365.626207305922768",
+      "priceUsd": 0.996287566465705
+    },
+    "coinY": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "691234187833",
+      "reserveUsd": "34423.4625540834",
+      "priceUsd": 4.98
+    },
+    "networkId": 1,
+    "type": "0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::liquidity_pool::LiquidityPool<0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDT,0x1::aptos_coin::AptosCoin,0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::curves::Uncorrelated>",
+    "fee": "30",
+    "lastBlockTimestamp": "1752226597",
+    "normalizedFee": 0.003,
+    "tvl": "66720.90259293295",
+    "apr": 7.52031925383842,
+    "volume24": 10299.216695064284,
+    "stats": {
+      "pool": "APT-zUSDT",
+      "curve": "Uncorrelated",
+      "version": "v0",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 66720.90259293295
+      },
+      "volume24H": {
+        "timestamp": "1752105600",
+        "value": 10299.216695064284
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 32076.140811157813
+      }
+    }
+  },
+  {
+    "version": 0.5,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "3396956441",
+      "reserveUsd": "169.1684307618",
+      "priceUsd": 4.98
+    },
+    "coinY": {
+      "type": "0x9770fa9c725cbd97eb50b2be5f7416efdfd1f1554beb0750d4dae4c64e860da3::wrapped_coins::WrappedUSDC",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/usdc.svg",
+      "name": "USDC",
+      "source": "aptos",
+      "symbol": "USDC",
+      "symbolWithBridge": "WrappedUSDC",
+      "reserve": "165686368",
+      "reserveUsd": "167.3260914252304",
+      "priceUsd": 1.00989655
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0x1::aptos_coin::AptosCoin,0x9770fa9c725cbd97eb50b2be5f7416efdfd1f1554beb0750d4dae4c64e860da3::wrapped_coins::WrappedUSDC,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Uncorrelated>",
+    "fee": "30",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1752220242",
+    "normalizedFee": 0.003,
+    "tvl": null,
+    "apr": null,
+    "volume24": 0
+  },
+  {
+    "version": 0.5,
+    "curve": "stable",
+    "coinX": {
+      "type": "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDC",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/usdc.svg",
+      "name": "USD Coin",
+      "source": "layerzero",
+      "symbol": "USDC",
+      "symbolWithBridge": "zUSDC",
+      "reserve": "6268",
+      "reserveUsd": "0.00627274345857917592",
+      "priceUsd": 1.00075677386394
+    },
+    "coinY": {
+      "type": "0x9770fa9c725cbd97eb50b2be5f7416efdfd1f1554beb0750d4dae4c64e860da3::wrapped_coins::WrappedUSDC",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/usdc.svg",
+      "name": "USDC",
+      "source": "aptos",
+      "symbol": "USDC",
+      "symbolWithBridge": "WrappedUSDC",
+      "reserve": "9",
+      "reserveUsd": "0.00000908906895",
+      "priceUsd": 1.00989655
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDC,0x9770fa9c725cbd97eb50b2be5f7416efdfd1f1554beb0750d4dae4c64e860da3::wrapped_coins::WrappedUSDC,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Stable>",
+    "fee": "4",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1748010400",
+    "normalizedFee": 0.0004,
+    "tvl": null,
+    "apr": null,
+    "volume24": 0
+  },
+  {
+    "version": 0.5,
+    "curve": "stable",
+    "coinX": {
+      "type": "0x5e156f1207d0ebfa19a9eeff00d62a282278fb8719f4fab3a586a0a2c0fffbea::coin::T",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/usdc.svg",
+      "name": "USD Coin",
+      "source": "wormhole",
+      "symbol": "USDC",
+      "symbolWithBridge": "wUSDC",
+      "reserve": "0",
+      "reserveUsd": "0",
+      "priceUsd": 0.99926681799135
+    },
+    "coinY": {
+      "type": "0x9770fa9c725cbd97eb50b2be5f7416efdfd1f1554beb0750d4dae4c64e860da3::wrapped_coins::WrappedUSDC",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/usdc.svg",
+      "name": "USDC",
+      "source": "aptos",
+      "symbol": "USDC",
+      "symbolWithBridge": "WrappedUSDC",
+      "reserve": "0",
+      "reserveUsd": "0",
+      "priceUsd": 1.00989655
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0x5e156f1207d0ebfa19a9eeff00d62a282278fb8719f4fab3a586a0a2c0fffbea::coin::T,0x9770fa9c725cbd97eb50b2be5f7416efdfd1f1554beb0750d4dae4c64e860da3::wrapped_coins::WrappedUSDC,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Stable>",
+    "fee": "4",
+    "lpReserve": "0",
+    "lastBlockTimestamp": "0",
+    "normalizedFee": 0.0004,
+    "tvl": null,
+    "apr": null,
+    "volume24": 0
+  },
+  {
+    "version": 0.5,
+    "curve": "stable",
+    "coinX": {
+      "type": "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDT",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/usdt.svg",
+      "name": "Tether USD",
+      "source": "layerzero",
+      "symbol": "USDT",
+      "symbolWithBridge": "zUSDT",
+      "reserve": "8522991",
+      "reserveUsd": "8.4913499623991055237",
+      "priceUsd": 0.996287566465705
+    },
+    "coinY": {
+      "type": "0x9770fa9c725cbd97eb50b2be5f7416efdfd1f1554beb0750d4dae4c64e860da3::fa_to_coin_wrapper::WrappedUSDT",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/usdt-fa.svg",
+      "name": "Tether USD",
+      "source": "tether",
+      "symbol": "USDt",
+      "symbolWithBridge": "WrappedUSDT",
+      "reserve": "9471141",
+      "reserveUsd": "9.6077344892768114045",
+      "priceUsd": 1.01442207325145
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDT,0x9770fa9c725cbd97eb50b2be5f7416efdfd1f1554beb0750d4dae4c64e860da3::fa_to_coin_wrapper::WrappedUSDT,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Stable>",
+    "fee": "4",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1752224667",
+    "normalizedFee": 0.0004,
+    "tvl": null,
+    "apr": null,
+    "volume24": 0
+  },
+  {
+    "version": 0.5,
+    "curve": "stable",
+    "coinX": {
+      "type": "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDC",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/usdc.svg",
+      "name": "USD Coin",
+      "source": "layerzero",
+      "symbol": "USDC",
+      "symbolWithBridge": "zUSDC",
+      "reserve": "231440",
+      "reserveUsd": "0.2316151477430702736",
+      "priceUsd": 1.00075677386394
+    },
+    "coinY": {
+      "type": "0x9770fa9c725cbd97eb50b2be5f7416efdfd1f1554beb0750d4dae4c64e860da3::fa_to_coin_wrapper::WrappedUSDT",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/usdt-fa.svg",
+      "name": "Tether USD",
+      "source": "tether",
+      "symbol": "USDt",
+      "symbolWithBridge": "WrappedUSDT",
+      "reserve": "170485",
+      "reserveUsd": "0.17294374715827345325",
+      "priceUsd": 1.01442207325145
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDC,0x9770fa9c725cbd97eb50b2be5f7416efdfd1f1554beb0750d4dae4c64e860da3::fa_to_coin_wrapper::WrappedUSDT,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Stable>",
+    "fee": "4",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1747475279",
+    "normalizedFee": 0.0004,
+    "tvl": null,
+    "apr": null,
+    "volume24": 0
+  },
+  {
+    "version": 0,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0x5c738a5dfa343bee927c39ebe85b0ceb95fdb5ee5b323c95559614f5a77c47cf::Aptoge::Aptoge",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/aptoge.svg",
+      "name": "Aptoge",
+      "source": "partners",
+      "symbol": "APTOGE",
+      "symbolWithBridge": "APTOGE",
+      "reserve": "3221041684021",
+      "reserveUsd": "515.89592364230531471",
+      "priceUsd": 0.000160164311502571
+    },
+    "coinY": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "11268991833",
+      "reserveUsd": "561.1957932834",
+      "priceUsd": 4.98
+    },
+    "networkId": 1,
+    "type": "0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::liquidity_pool::LiquidityPool<0x5c738a5dfa343bee927c39ebe85b0ceb95fdb5ee5b323c95559614f5a77c47cf::Aptoge::Aptoge,0x1::aptos_coin::AptosCoin,0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::curves::Uncorrelated>",
+    "fee": "30",
+    "lastBlockTimestamp": "1752160613",
+    "normalizedFee": 0.003,
+    "tvl": "68701.68590581238",
+    "apr": 0.8220097774765625,
+    "volume24": 0,
+    "stats": {
+      "pool": "APT-APTOGE",
+      "curve": "Uncorrelated",
+      "version": "v0",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 68701.68590581238
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 3610.175368090508
+      }
+    }
+  },
+  {
+    "version": 0,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "4237693707",
+      "reserveUsd": "211.0371466086",
+      "priceUsd": 4.98
+    },
+    "coinY": {
+      "type": "0xd0b4efb4be7c3508d9a26a9b5405cf9f860d0b9e5fe2f498b90e68b8d2cedd3e::aptos_launch_token::AptosLaunchToken",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/alt.svg",
+      "name": "Aptos Launch Token",
+      "source": "partners",
+      "symbol": "ALT",
+      "symbolWithBridge": "ALT",
+      "reserve": "7077573916083",
+      "reserveUsd": "215.07688445331713526",
+      "priceUsd": 0.00303885041687207
+    },
+    "networkId": 1,
+    "type": "0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::liquidity_pool::LiquidityPool<0x1::aptos_coin::AptosCoin,0xd0b4efb4be7c3508d9a26a9b5405cf9f860d0b9e5fe2f498b90e68b8d2cedd3e::aptos_launch_token::AptosLaunchToken,0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::curves::Uncorrelated>",
+    "fee": "30",
+    "lastBlockTimestamp": "1752213113",
+    "normalizedFee": 0.003,
+    "tvl": null,
+    "apr": null,
+    "volume24": 0
+  },
+  {
+    "version": 0,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0xa2eda21a58856fda86451436513b867c97eecb4ba099da5775520e0f7492e852::coin::T",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/usdt.svg",
+      "name": "Tether USD",
+      "source": "wormhole",
+      "symbol": "USDT",
+      "symbolWithBridge": "wUSDT",
+      "reserve": "3639818530",
+      "reserveUsd": "3632.0807169626839847",
+      "priceUsd": 0.997874121203148
+    },
+    "coinY": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "72955999107",
+      "reserveUsd": "3633.2087555286",
+      "priceUsd": 4.98
+    },
+    "networkId": 1,
+    "type": "0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::liquidity_pool::LiquidityPool<0xa2eda21a58856fda86451436513b867c97eecb4ba099da5775520e0f7492e852::coin::T,0x1::aptos_coin::AptosCoin,0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::curves::Uncorrelated>",
+    "fee": "30",
+    "lastBlockTimestamp": "1752226602",
+    "normalizedFee": 0.003,
+    "tvl": "7034.810774896484",
+    "apr": 1.9608477319926463,
+    "volume24": 177.187423611526,
+    "stats": {
+      "pool": "APT-wUSDT",
+      "curve": "Uncorrelated",
+      "version": "v0",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 7034.810774896484
+      },
+      "volume24H": {
+        "timestamp": "1752105600",
+        "value": 177.187423611526
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 881.8205412846796
+      }
+    }
+  },
+  {
+    "version": 0,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0x5e156f1207d0ebfa19a9eeff00d62a282278fb8719f4fab3a586a0a2c0fffbea::coin::T",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/usdc.svg",
+      "name": "USD Coin",
+      "source": "wormhole",
+      "symbol": "USDC",
+      "symbolWithBridge": "wUSDC",
+      "reserve": "974145",
+      "reserveUsd": "0.97343077441218364575",
+      "priceUsd": 0.99926681799135
+    },
+    "coinY": {
+      "type": "0x881ac202b1f1e6ad4efcff7a1d0579411533f2502417a19211cfc49751ddb5f4::coin::MOJO",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/mojo.svg",
+      "name": "Mojito",
+      "source": "partners",
+      "symbol": "MOJO",
+      "symbolWithBridge": "MOJO",
+      "reserve": "242422830280",
+      "reserveUsd": "0.96760662479943091184",
+      "priceUsd": 0.00039914005775852
+    },
+    "networkId": 1,
+    "type": "0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::liquidity_pool::LiquidityPool<0x5e156f1207d0ebfa19a9eeff00d62a282278fb8719f4fab3a586a0a2c0fffbea::coin::T,0x881ac202b1f1e6ad4efcff7a1d0579411533f2502417a19211cfc49751ddb5f4::coin::MOJO,0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::curves::Uncorrelated>",
+    "fee": "30",
+    "lastBlockTimestamp": "1752213433",
+    "normalizedFee": 0.003,
+    "tvl": null,
+    "apr": null,
+    "volume24": 0
+  },
+  {
+    "version": 0,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0xa2eda21a58856fda86451436513b867c97eecb4ba099da5775520e0f7492e852::coin::T",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/usdt.svg",
+      "name": "Tether USD",
+      "source": "wormhole",
+      "symbol": "USDT",
+      "symbolWithBridge": "wUSDT",
+      "reserve": "3007243",
+      "reserveUsd": "3.000849965869318401",
+      "priceUsd": 0.997874121203148
+    },
+    "coinY": {
+      "type": "0xae478ff7d83ed072dbc5e264250e67ef58f57c99d89b447efd8a0a2e8b2be76e::coin::T",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/btc.svg",
+      "name": "Bitcoin",
+      "source": "wormhole",
+      "symbol": "BTC",
+      "symbolWithBridge": "wWBTC",
+      "reserve": "2645",
+      "reserveUsd": "3.0958596032615466",
+      "priceUsd": 117045.731692308
+    },
+    "networkId": 1,
+    "type": "0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::liquidity_pool::LiquidityPool<0xa2eda21a58856fda86451436513b867c97eecb4ba099da5775520e0f7492e852::coin::T,0xae478ff7d83ed072dbc5e264250e67ef58f57c99d89b447efd8a0a2e8b2be76e::coin::T,0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::curves::Uncorrelated>",
+    "fee": "30",
+    "lastBlockTimestamp": "1752190389",
+    "normalizedFee": 0.003,
+    "tvl": null,
+    "apr": null,
+    "volume24": 0
+  },
+  {
+    "version": 0,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0x5e156f1207d0ebfa19a9eeff00d62a282278fb8719f4fab3a586a0a2c0fffbea::coin::T",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/usdc.svg",
+      "name": "USD Coin",
+      "source": "wormhole",
+      "symbol": "USDC",
+      "symbolWithBridge": "wUSDC",
+      "reserve": "10549897",
+      "reserveUsd": "10.542162005326489391",
+      "priceUsd": 0.99926681799135
+    },
+    "coinY": {
+      "type": "0xcc8a89c8dce9693d354449f1f73e60e14e347417854f029db5bc8e7454008abb::coin::T",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/weth.svg",
+      "name": "Wrapped Ether",
+      "source": "wormhole",
+      "symbol": "WETH",
+      "symbolWithBridge": "wWETH",
+      "reserve": "356198",
+      "reserveUsd": "10.668955983325254863",
+      "priceUsd": 2995.23186074185
+    },
+    "networkId": 1,
+    "type": "0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::liquidity_pool::LiquidityPool<0x5e156f1207d0ebfa19a9eeff00d62a282278fb8719f4fab3a586a0a2c0fffbea::coin::T,0xcc8a89c8dce9693d354449f1f73e60e14e347417854f029db5bc8e7454008abb::coin::T,0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::curves::Uncorrelated>",
+    "fee": "30",
+    "lastBlockTimestamp": "1752212077",
+    "normalizedFee": 0.003,
+    "tvl": null,
+    "apr": null,
+    "volume24": 0
+  },
+  {
+    "version": 0,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0x5e156f1207d0ebfa19a9eeff00d62a282278fb8719f4fab3a586a0a2c0fffbea::coin::T",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/usdc.svg",
+      "name": "USD Coin",
+      "source": "wormhole",
+      "symbol": "USDC",
+      "symbolWithBridge": "wUSDC",
+      "reserve": "6523363706",
+      "reserveUsd": "6518.5808930948804119",
+      "priceUsd": 0.99926681799135
+    },
+    "coinY": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "130852805063",
+      "reserveUsd": "6516.4696921374",
+      "priceUsd": 4.98
+    },
+    "networkId": 1,
+    "type": "0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::liquidity_pool::LiquidityPool<0x5e156f1207d0ebfa19a9eeff00d62a282278fb8719f4fab3a586a0a2c0fffbea::coin::T,0x1::aptos_coin::AptosCoin,0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::curves::Uncorrelated>",
+    "fee": "30",
+    "lastBlockTimestamp": "1752226600",
+    "normalizedFee": 0.003,
+    "tvl": "12612.651882445161",
+    "apr": 5.619495516072042,
+    "volume24": 325.08657117243837,
+    "stats": {
+      "pool": "APT-wUSDC",
+      "curve": "Uncorrelated",
+      "version": "v0",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 12612.651882445161
+      },
+      "volume24H": {
+        "timestamp": "1752105600",
+        "value": 325.08657117243837
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 4530.9331953812525
+      }
+    }
+  },
+  {
+    "version": 0,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0xae478ff7d83ed072dbc5e264250e67ef58f57c99d89b447efd8a0a2e8b2be76e::coin::T",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/btc.svg",
+      "name": "Bitcoin",
+      "source": "wormhole",
+      "symbol": "BTC",
+      "symbolWithBridge": "wWBTC",
+      "reserve": "475100",
+      "reserveUsd": "556.084271270155308",
+      "priceUsd": 117045.731692308
+    },
+    "coinY": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "11186146277",
+      "reserveUsd": "557.0700845946",
+      "priceUsd": 4.98
+    },
+    "networkId": 1,
+    "type": "0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::liquidity_pool::LiquidityPool<0xae478ff7d83ed072dbc5e264250e67ef58f57c99d89b447efd8a0a2e8b2be76e::coin::T,0x1::aptos_coin::AptosCoin,0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::curves::Uncorrelated>",
+    "fee": "30",
+    "lastBlockTimestamp": "1752226761",
+    "normalizedFee": 0.003,
+    "tvl": "1049.2733084437891",
+    "apr": 1.9685593307485056,
+    "volume24": 7.757329840145366,
+    "stats": {
+      "pool": "APT-wWBTC",
+      "curve": "Uncorrelated",
+      "version": "v0",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 1049.2733084437891
+      },
+      "volume24H": {
+        "timestamp": "1752105600",
+        "value": 7.757329840145366
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 132.0447245013391
+      }
+    }
+  },
+  {
+    "version": 0,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::WETH",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/weth.svg",
+      "name": "Wrapped Ether",
+      "source": "layerzero",
+      "symbol": "WETH",
+      "symbolWithBridge": "zWETH",
+      "reserve": "19222611",
+      "reserveUsd": "57732.600761457853434",
+      "priceUsd": 3003.36935296968
+    },
+    "coinY": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "1155043801693",
+      "reserveUsd": "57521.1813243114",
+      "priceUsd": 4.98
+    },
+    "networkId": 1,
+    "type": "0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::liquidity_pool::LiquidityPool<0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::WETH,0x1::aptos_coin::AptosCoin,0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::curves::Uncorrelated>",
+    "fee": "30",
+    "lastBlockTimestamp": "1752225190",
+    "normalizedFee": 0.003,
+    "tvl": "108407.78883987342",
+    "apr": 4.5602439739754335,
+    "volume24": 15126.416676817485,
+    "stats": {
+      "pool": "APT-zWETH",
+      "curve": "Uncorrelated",
+      "version": "v0",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 108407.78883987342
+      },
+      "volume24H": {
+        "timestamp": "1752105600",
+        "value": 15126.416676817485
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 31603.303749070667
+      }
+    }
+  },
+  {
+    "version": 0,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDC",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/usdc.svg",
+      "name": "USD Coin",
+      "source": "layerzero",
+      "symbol": "USDC",
+      "symbolWithBridge": "zUSDC",
+      "reserve": "118885396271",
+      "reserveUsd": "118975.36563170204274",
+      "priceUsd": 1.00075677386394
+    },
+    "coinY": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "2381547409952",
+      "reserveUsd": "118601.0610156096",
+      "priceUsd": 4.98
+    },
+    "networkId": 1,
+    "type": "0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::liquidity_pool::LiquidityPool<0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDC,0x1::aptos_coin::AptosCoin,0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::curves::Uncorrelated>",
+    "fee": "30",
+    "lastBlockTimestamp": "1752226594",
+    "normalizedFee": 0.003,
+    "tvl": "230019.01397791653",
+    "apr": 4.1735081891442745,
+    "volume24": 11979.1404947652,
+    "stats": {
+      "pool": "APT-zUSDC",
+      "curve": "Uncorrelated",
+      "version": "v0",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 230019.01397791653
+      },
+      "volume24H": {
+        "timestamp": "1752105600",
+        "value": 11979.1404947652
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 61368.98328283181
+      }
+    }
+  },
+  {
+    "version": 0,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDC",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/usdc.svg",
+      "name": "USD Coin",
+      "source": "layerzero",
+      "symbol": "USDC",
+      "symbolWithBridge": "zUSDC",
+      "reserve": "1750873305",
+      "reserveUsd": "1752.1983201562942481",
+      "priceUsd": 1.00075677386394
+    },
+    "coinY": {
+      "type": "0xd11107bdf0d6d7040c6c0bfbdecb6545191fdf13e8d8d259952f53e1713f61b5::staked_coin::StakedAptos",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/stapt.svg",
+      "name": "Ditto Staked Aptos",
+      "source": "partners",
+      "symbol": "stAPT",
+      "symbolWithBridge": "stAPT",
+      "reserve": "31856337188",
+      "reserveUsd": "1758.8012732924552526",
+      "priceUsd": 5.52104048532918
+    },
+    "networkId": 1,
+    "type": "0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::liquidity_pool::LiquidityPool<0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDC,0xd11107bdf0d6d7040c6c0bfbdecb6545191fdf13e8d8d259952f53e1713f61b5::staked_coin::StakedAptos,0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::curves::Uncorrelated>",
+    "fee": "30",
+    "lastBlockTimestamp": "1752226116",
+    "normalizedFee": 0.003,
+    "tvl": "3227.792497717446",
+    "apr": 1.892135227418628,
+    "volume24": 76.94339173692117,
+    "stats": {
+      "pool": "stAPT-zUSDC",
+      "curve": "Uncorrelated",
+      "version": "v0",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 3227.792497717446
+      },
+      "volume24H": {
+        "timestamp": "1752105600",
+        "value": 76.94339173692117
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 390.4286688776364
+      }
+    }
+  },
+  {
+    "version": 0,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0x881ac202b1f1e6ad4efcff7a1d0579411533f2502417a19211cfc49751ddb5f4::coin::MOJO",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/mojo.svg",
+      "name": "Mojito",
+      "source": "partners",
+      "symbol": "MOJO",
+      "symbolWithBridge": "MOJO",
+      "reserve": "66892981978544",
+      "reserveUsd": "266.99668690555689627",
+      "priceUsd": 0.00039914005775852
+    },
+    "coinY": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "5412420205",
+      "reserveUsd": "269.538526209",
+      "priceUsd": 4.98
+    },
+    "networkId": 1,
+    "type": "0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::liquidity_pool::LiquidityPool<0x881ac202b1f1e6ad4efcff7a1d0579411533f2502417a19211cfc49751ddb5f4::coin::MOJO,0x1::aptos_coin::AptosCoin,0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::curves::Uncorrelated>",
+    "fee": "30",
+    "lastBlockTimestamp": "1751477982",
+    "normalizedFee": 0.003,
+    "tvl": null,
+    "apr": null,
+    "volume24": 0
+  },
+  {
+    "version": 0,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDC",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/usdc.svg",
+      "name": "USD Coin",
+      "source": "layerzero",
+      "symbol": "USDC",
+      "symbolWithBridge": "zUSDC",
+      "reserve": "22224553999",
+      "reserveUsd": "22241.372960604166409",
+      "priceUsd": 1.00075677386394
+    },
+    "coinY": {
+      "type": "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::WETH",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/weth.svg",
+      "name": "Wrapped Ether",
+      "source": "layerzero",
+      "symbol": "WETH",
+      "symbolWithBridge": "zWETH",
+      "reserve": "7391777",
+      "reserveUsd": "22200.236505786162321",
+      "priceUsd": 3003.36935296968
+    },
+    "networkId": 1,
+    "type": "0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::liquidity_pool::LiquidityPool<0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDC,0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::WETH,0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::curves::Uncorrelated>",
+    "fee": "30",
+    "lastBlockTimestamp": "1752226707",
+    "normalizedFee": 0.003,
+    "tvl": "386322.7855156521",
+    "apr": 2.324713472379927,
+    "volume24": 5286.513286037449,
+    "stats": {
+      "pool": "zUSDC-zWETH",
+      "curve": "Uncorrelated",
+      "version": "v0",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 386322.7855156521
+      },
+      "volume24H": {
+        "timestamp": "1752105600",
+        "value": 5286.513286037449
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 57412.132321726414
+      }
+    }
+  },
+  {
+    "version": 0,
+    "curve": "stable",
+    "coinX": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "136427772917",
+      "reserveUsd": "6794.1030912666",
+      "priceUsd": 4.98
+    },
+    "coinY": {
+      "type": "0x84d7aeef42d38a5ffc3ccef853e1b82e4958659d16a7de736a29c55fbbeb0114::staked_aptos_coin::StakedAptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/tapt.svg",
+      "name": "Tortuga Staked APT",
+      "source": "partners",
+      "symbol": "tAPT",
+      "symbolWithBridge": "tAPT",
+      "reserve": "55213875175",
+      "reserveUsd": "3186.8938108057692815",
+      "priceUsd": 5.77190751546587
+    },
+    "networkId": 1,
+    "type": "0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::liquidity_pool::LiquidityPool<0x1::aptos_coin::AptosCoin,0x84d7aeef42d38a5ffc3ccef853e1b82e4958659d16a7de736a29c55fbbeb0114::staked_aptos_coin::StakedAptosCoin,0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::curves::Stable>",
+    "fee": "4",
+    "lastBlockTimestamp": "1752219133",
+    "normalizedFee": 0.0004,
+    "tvl": "14745.777719452737",
+    "apr": 0.11164123166555616,
+    "volume24": 234.22492711422203,
+    "stats": {
+      "pool": "APT-tAPT",
+      "curve": "Stable",
+      "version": "v0",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 14745.777719452737
+      },
+      "volume24H": {
+        "timestamp": "1752105600",
+        "value": 234.22492711422203
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 789.2916099495571
+      }
+    }
+  },
+  {
+    "version": 0,
+    "curve": "stable",
+    "coinX": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "582551629757",
+      "reserveUsd": "29011.0711618986",
+      "priceUsd": 4.98
+    },
+    "coinY": {
+      "type": "0xd11107bdf0d6d7040c6c0bfbdecb6545191fdf13e8d8d259952f53e1713f61b5::staked_coin::StakedAptos",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/stapt.svg",
+      "name": "Ditto Staked Aptos",
+      "source": "partners",
+      "symbol": "stAPT",
+      "symbolWithBridge": "stAPT",
+      "reserve": "269466496271",
+      "reserveUsd": "14877.354353519955127",
+      "priceUsd": 5.52104048532918
+    },
+    "networkId": 1,
+    "type": "0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::liquidity_pool::LiquidityPool<0x1::aptos_coin::AptosCoin,0xd11107bdf0d6d7040c6c0bfbdecb6545191fdf13e8d8d259952f53e1713f61b5::staked_coin::StakedAptos,0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::curves::Stable>",
+    "fee": "4",
+    "lastBlockTimestamp": "1752216430",
+    "normalizedFee": 0.0004,
+    "tvl": "39701.56663407621",
+    "apr": 0.059853353695524456,
+    "volume24": 73.53645693202844,
+    "stats": {
+      "pool": "APT-stAPT",
+      "curve": "Stable",
+      "version": "v0",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 39701.56663407621
+      },
+      "volume24H": {
+        "timestamp": "1752105600",
+        "value": 73.53645693202844
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 1139.3084500075731
+      }
+    }
+  },
+  {
+    "version": 0.5,
+    "curve": "stable",
+    "coinX": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "47272272880",
+      "reserveUsd": "2354.159189424",
+      "priceUsd": 4.98
+    },
+    "coinY": {
+      "type": "0xd11107bdf0d6d7040c6c0bfbdecb6545191fdf13e8d8d259952f53e1713f61b5::staked_coin::StakedAptos",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/stapt.svg",
+      "name": "Ditto Staked Aptos",
+      "source": "partners",
+      "symbol": "stAPT",
+      "symbolWithBridge": "stAPT",
+      "reserve": "21941278667",
+      "reserveUsd": "1211.3868782039646361",
+      "priceUsd": 5.52104048532918
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0x1::aptos_coin::AptosCoin,0xd11107bdf0d6d7040c6c0bfbdecb6545191fdf13e8d8d259952f53e1713f61b5::staked_coin::StakedAptos,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Stable>",
+    "fee": "4",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1752226580",
+    "normalizedFee": 0.0004,
+    "tvl": "3225.1819940672485",
+    "apr": 0.17258549453824157,
+    "volume24": 27.24315832979484,
+    "stats": {
+      "pool": "APT-stAPT",
+      "curve": "Stable",
+      "version": "v0.5",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 3225.1819940672485
+      },
+      "volume24H": {
+        "timestamp": "1752105600",
+        "value": 27.24315832979484
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 266.87242506530805
+      }
+    }
+  },
+  {
+    "version": 0,
+    "curve": "stable",
+    "coinX": {
+      "type": "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDC",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/usdc.svg",
+      "name": "USD Coin",
+      "source": "layerzero",
+      "symbol": "USDC",
+      "symbolWithBridge": "zUSDC",
+      "reserve": "18971965925",
+      "reserveUsd": "18986.323412959600266",
+      "priceUsd": 1.00075677386394
+    },
+    "coinY": {
+      "type": "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDT",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/usdt.svg",
+      "name": "Tether USD",
+      "source": "layerzero",
+      "symbol": "USDT",
+      "symbolWithBridge": "zUSDT",
+      "reserve": "20419967780",
+      "reserveUsd": "20344.160006844304575",
+      "priceUsd": 0.996287566465705
+    },
+    "networkId": 1,
+    "type": "0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::liquidity_pool::LiquidityPool<0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDC,0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDT,0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::curves::Stable>",
+    "fee": "4",
+    "lastBlockTimestamp": "1752212484",
+    "normalizedFee": 0.0004,
+    "tvl": "39391.678737",
+    "apr": 0.28495234363015354,
+    "volume24": 1448.5741535216139,
+    "stats": {
+      "pool": "zUSDC-zUSDT",
+      "curve": "Stable",
+      "version": "v0",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 39391.678737
+      },
+      "volume24H": {
+        "timestamp": "1752105600",
+        "value": 1448.5741535216139
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 5381.730015715045
+      }
+    }
+  },
+  {
+    "version": 0,
+    "curve": "stable",
+    "coinX": {
+      "type": "0x5e156f1207d0ebfa19a9eeff00d62a282278fb8719f4fab3a586a0a2c0fffbea::coin::T",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/usdc.svg",
+      "name": "USD Coin",
+      "source": "wormhole",
+      "symbol": "USDC",
+      "symbolWithBridge": "wUSDC",
+      "reserve": "15374068942",
+      "reserveUsd": "15362.79695125198086",
+      "priceUsd": 0.99926681799135
+    },
+    "coinY": {
+      "type": "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDC",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/usdc.svg",
+      "name": "USD Coin",
+      "source": "layerzero",
+      "symbol": "USDC",
+      "symbolWithBridge": "zUSDC",
+      "reserve": "16061502664",
+      "reserveUsd": "16073.657589431717884",
+      "priceUsd": 1.00075677386394
+    },
+    "networkId": 1,
+    "type": "0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::liquidity_pool::LiquidityPool<0x5e156f1207d0ebfa19a9eeff00d62a282278fb8719f4fab3a586a0a2c0fffbea::coin::T,0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDC,0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::curves::Stable>",
+    "fee": "4",
+    "lastBlockTimestamp": "1752226606",
+    "normalizedFee": 0.0004,
+    "tvl": "138479.8275",
+    "apr": 0.041306263777323604,
+    "volume24": 1023.9428679696965,
+    "stats": {
+      "pool": "wUSDC-zUSDC",
+      "curve": "Stable",
+      "version": "v0",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 138479.8275
+      },
+      "volume24H": {
+        "timestamp": "1752105600",
+        "value": 1023.9428679696965
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 2742.506162868007
+      }
+    }
+  },
+  {
+    "version": 0,
+    "curve": "stable",
+    "coinX": {
+      "type": "0x5e156f1207d0ebfa19a9eeff00d62a282278fb8719f4fab3a586a0a2c0fffbea::coin::T",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/usdc.svg",
+      "name": "USD Coin",
+      "source": "wormhole",
+      "symbol": "USDC",
+      "symbolWithBridge": "wUSDC",
+      "reserve": "121644445",
+      "reserveUsd": "121.55525748147378555",
+      "priceUsd": 0.99926681799135
+    },
+    "coinY": {
+      "type": "0xa2eda21a58856fda86451436513b867c97eecb4ba099da5775520e0f7492e852::coin::T",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/usdt.svg",
+      "name": "Tether USD",
+      "source": "wormhole",
+      "symbol": "USDT",
+      "symbolWithBridge": "wUSDT",
+      "reserve": "151155087",
+      "reserveUsd": "150.83374960551038061",
+      "priceUsd": 0.997874121203148
+    },
+    "networkId": 1,
+    "type": "0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::liquidity_pool::LiquidityPool<0x5e156f1207d0ebfa19a9eeff00d62a282278fb8719f4fab3a586a0a2c0fffbea::coin::T,0xa2eda21a58856fda86451436513b867c97eecb4ba099da5775520e0f7492e852::coin::T,0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::curves::Stable>",
+    "fee": "4",
+    "lastBlockTimestamp": "1752185888",
+    "normalizedFee": 0.0004,
+    "tvl": null,
+    "apr": null,
+    "volume24": 0
+  },
+  {
+    "version": 0,
+    "curve": "stable",
+    "coinX": {
+      "type": "0xd6d6372c8bde72a7ab825c00b9edd35e643fb94a61c55d9d94a9db3010098548::USDC::Coin",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/usdc.svg",
+      "name": "USD Coin",
+      "source": "multichain",
+      "symbol": "USDC",
+      "symbolWithBridge": "multiUSDC",
+      "reserve": "44890326749",
+      "reserveUsd": "45995.722941900891042",
+      "priceUsd": 1.02462437395659
+    },
+    "coinY": {
+      "type": "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDC",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/usdc.svg",
+      "name": "USD Coin",
+      "source": "layerzero",
+      "symbol": "USDC",
+      "symbolWithBridge": "zUSDC",
+      "reserve": "55421040866",
+      "reserveUsd": "55462.982061239739464",
+      "priceUsd": 1.00075677386394
+    },
+    "networkId": 1,
+    "type": "0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::liquidity_pool::LiquidityPool<0xd6d6372c8bde72a7ab825c00b9edd35e643fb94a61c55d9d94a9db3010098548::USDC::Coin,0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDC,0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::curves::Stable>",
+    "fee": "4",
+    "lastBlockTimestamp": "1752091125",
+    "normalizedFee": 0.0004,
+    "tvl": "55421.040866",
+    "apr": 0.003400089819480218,
+    "volume24": 0,
+    "stats": {
+      "pool": "multiUSDC-zUSDC",
+      "curve": "Stable",
+      "version": "v0",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 55421.040866
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 90.34627519413603
+      }
+    }
+  },
+  {
+    "version": 0.5,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0x7fd500c11216f0fe3095d0c4b8aa4d64a4e2e04f83758462f2b127255643615::thl_coin::THL",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/thl.svg",
+      "name": "Thala Token",
+      "source": "partners",
+      "symbol": "THL",
+      "symbolWithBridge": "THL",
+      "reserve": "5037388521931",
+      "reserveUsd": "6497.898907358581412",
+      "priceUsd": 0.128993403607227
+    },
+    "coinY": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "131105402983",
+      "reserveUsd": "6529.0490685534",
+      "priceUsd": 4.98
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0x7fd500c11216f0fe3095d0c4b8aa4d64a4e2e04f83758462f2b127255643615::thl_coin::THL,0x1::aptos_coin::AptosCoin,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Uncorrelated>",
+    "fee": "30",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1752226806",
+    "normalizedFee": 0.003,
+    "tvl": "12143.787838970185",
+    "apr": 2.96677099460139,
+    "volume24": 993.5995070132027,
+    "stats": {
+      "pool": "APT-THL",
+      "curve": "Uncorrelated",
+      "version": "v0.5",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 12143.787838970185
+      },
+      "volume24H": {
+        "timestamp": "1752105600",
+        "value": 993.5995070132027
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 2303.149430837889
+      }
+    }
+  },
+  {
+    "version": 0.5,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0x7c0322595a73b3fc53bb166f5783470afeb1ed9f46d1176db62139991505dc61::abel_coin::AbelCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/abel.svg",
+      "name": "Abel Coin",
+      "source": "partners",
+      "symbol": "ABEL",
+      "symbolWithBridge": "ABEL",
+      "reserve": "26233355553001",
+      "reserveUsd": "217.82859304312346096",
+      "priceUsd": 0.000830349714900291
+    },
+    "coinY": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "4432251116",
+      "reserveUsd": "220.7261055768",
+      "priceUsd": 4.98
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0x7c0322595a73b3fc53bb166f5783470afeb1ed9f46d1176db62139991505dc61::abel_coin::AbelCoin,0x1::aptos_coin::AptosCoin,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Uncorrelated>",
+    "fee": "30",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1752199155",
+    "normalizedFee": 0.003,
+    "tvl": "1372.9148100169464",
+    "apr": 0.4107080777392936,
+    "volume24": 115.19066629606043,
+    "stats": {
+      "pool": "ABEL-APT",
+      "curve": "Uncorrelated",
+      "version": "v0.5",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 1372.9148100169464
+      },
+      "volume24H": {
+        "timestamp": "1752105600",
+        "value": 115.19066629606043
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 36.046305184046325
+      }
+    }
+  },
+  {
+    "version": 0.5,
+    "curve": "stable",
+    "coinX": {
+      "type": "0x5e156f1207d0ebfa19a9eeff00d62a282278fb8719f4fab3a586a0a2c0fffbea::coin::T",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/usdc.svg",
+      "name": "USD Coin",
+      "source": "wormhole",
+      "symbol": "USDC",
+      "symbolWithBridge": "wUSDC",
+      "reserve": "3845097466",
+      "reserveUsd": "3842.2783097164230949",
+      "priceUsd": 0.99926681799135
+    },
+    "coinY": {
+      "type": "0xa2eda21a58856fda86451436513b867c97eecb4ba099da5775520e0f7492e852::coin::T",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/usdt.svg",
+      "name": "Tether USD",
+      "source": "wormhole",
+      "symbol": "USDT",
+      "symbolWithBridge": "wUSDT",
+      "reserve": "4702455981",
+      "reserveUsd": "4692.4591295368622286",
+      "priceUsd": 0.997874121203148
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0x5e156f1207d0ebfa19a9eeff00d62a282278fb8719f4fab3a586a0a2c0fffbea::coin::T,0xa2eda21a58856fda86451436513b867c97eecb4ba099da5775520e0f7492e852::coin::T,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Stable>",
+    "fee": "4",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1752225886",
+    "normalizedFee": 0.0004,
+    "tvl": "8548.352685",
+    "apr": 0.15379448879031785,
+    "volume24": 79.24616911478591,
+    "stats": {
+      "pool": "wUSDC-wUSDT",
+      "curve": "Stable",
+      "version": "v0.5",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 8548.352685
+      },
+      "volume24H": {
+        "timestamp": "1752105600",
+        "value": 79.24616911478591
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 630.3305971453707
+      }
+    }
+  },
+  {
+    "version": 0.5,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0x7fd500c11216f0fe3095d0c4b8aa4d64a4e2e04f83758462f2b127255643615::thl_coin::THL",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/thl.svg",
+      "name": "Thala Token",
+      "source": "partners",
+      "symbol": "THL",
+      "symbolWithBridge": "THL",
+      "reserve": "4189772332844",
+      "reserveUsd": "5404.5299355293911249",
+      "priceUsd": 0.128993403607227
+    },
+    "coinY": {
+      "type": "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDC",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/usdc.svg",
+      "name": "USD Coin",
+      "source": "layerzero",
+      "symbol": "USDC",
+      "symbolWithBridge": "zUSDC",
+      "reserve": "5423918412",
+      "reserveUsd": "5428.0230916943445489",
+      "priceUsd": 1.00075677386394
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0x7fd500c11216f0fe3095d0c4b8aa4d64a4e2e04f83758462f2b127255643615::thl_coin::THL,0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDC,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Uncorrelated>",
+    "fee": "30",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1752225717",
+    "normalizedFee": 0.003,
+    "tvl": "10435.706113027662",
+    "apr": 1.2410107226425457,
+    "volume24": 622.8640477651319,
+    "stats": {
+      "pool": "THL-zUSDC",
+      "curve": "Uncorrelated",
+      "version": "v0.5",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 10435.706113027662
+      },
+      "volume24H": {
+        "timestamp": "1752105600",
+        "value": 622.8640477651319
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 827.9065049524733
+      }
+    }
+  },
+  {
+    "version": 0.5,
+    "curve": "stable",
+    "coinX": {
+      "type": "0x111ae3e5bc816a5e63c2da97d0aa3886519e0cd5e4b046659fa35796bd11542a::amapt_token::AmnisApt",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/amapt.svg",
+      "name": "Amnis Aptos Coin",
+      "source": "amnis",
+      "symbol": "amAPT",
+      "symbolWithBridge": "amAPT",
+      "reserve": "58683089998229",
+      "reserveUsd": "2895092.1241577083449",
+      "priceUsd": 4.93343503937008
+    },
+    "coinY": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "42068368486438",
+      "reserveUsd": "2095004.7506246124",
+      "priceUsd": 4.98
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0x111ae3e5bc816a5e63c2da97d0aa3886519e0cd5e4b046659fa35796bd11542a::amapt_token::AmnisApt,0x1::aptos_coin::AptosCoin,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Stable>",
+    "fee": "4",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1752225786",
+    "normalizedFee": 0.0004,
+    "tvl": "4679716.411119973",
+    "apr": 0.2596414619649879,
+    "volume24": 26154.44025657709,
+    "stats": {
+      "pool": "amAPT-APT",
+      "curve": "Stable",
+      "version": "v0.5",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 4679716.411119973
+      },
+      "volume24H": {
+        "timestamp": "1752105600",
+        "value": 26154.44025657709
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 582557.457120079
+      }
+    }
+  },
+  {
+    "version": 0.5,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDT",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/usdt.svg",
+      "name": "Tether USD",
+      "source": "layerzero",
+      "symbol": "USDT",
+      "symbolWithBridge": "zUSDT",
+      "reserve": "20623417405",
+      "reserveUsd": "20546.854338633914833",
+      "priceUsd": 0.996287566465705
+    },
+    "coinY": {
+      "type": "0xe50684a338db732d8fb8a3ac71c4b8633878bd0193bca5de2ebc852a83b35099::propbase_coin::PROPS",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/props.png",
+      "name": "Propbase",
+      "source": "partners",
+      "symbol": "PROPS",
+      "symbolWithBridge": "PROPS",
+      "reserve": "84337898790928",
+      "reserveUsd": "20688.817383816350586",
+      "priceUsd": 0.0245308665266887
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDT,0xe50684a338db732d8fb8a3ac71c4b8633878bd0193bca5de2ebc852a83b35099::propbase_coin::PROPS,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Uncorrelated>",
+    "fee": "30",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1752225745",
+    "normalizedFee": 0.003,
+    "tvl": "39853.57106161569",
+    "apr": 4.821581554287505,
+    "volume24": 1790.8384447356477,
+    "stats": {
+      "pool": "PROPS-zUSDT",
+      "curve": "Uncorrelated",
+      "version": "v0.5",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 39853.57106161569
+      },
+      "volume24H": {
+        "timestamp": "1752105600",
+        "value": 1790.8384447356477
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 12284.024673262169
+      }
+    }
+  },
+  {
+    "version": 0.5,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0x73eb84966be67e4697fc5ae75173ca6c35089e802650f75422ab49a8729704ec::coin::DooDoo",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/doodoo.svg",
+      "name": "DooDoo",
+      "source": "aptos",
+      "symbol": "doodoo",
+      "symbolWithBridge": "doodoo",
+      "reserve": "122043489916102",
+      "reserveUsd": "160896.98125628840335",
+      "priceUsd": 0.131835775400143
+    },
+    "coinY": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "3255265335463",
+      "reserveUsd": "162112.2137060574",
+      "priceUsd": 4.98
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0x73eb84966be67e4697fc5ae75173ca6c35089e802650f75422ab49a8729704ec::coin::DooDoo,0x1::aptos_coin::AptosCoin,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Uncorrelated>",
+    "fee": "15",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1752224055",
+    "normalizedFee": 0.0015,
+    "tvl": "300842.5955137914",
+    "apr": 0.13039361737191374,
+    "volume24": 3284.5471238618256,
+    "stats": {
+      "pool": "APT-DooDoo",
+      "curve": "Uncorrelated",
+      "version": "v0.5",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 300842.5955137914
+      },
+      "volume24H": {
+        "timestamp": "1752105600",
+        "value": 3284.5471238618256
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 5015.4462104144495
+      }
+    }
+  },
+  {
+    "version": 0.5,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0x665d06fcd9c94430099f82973f2a5e5f13142e42fa172e72ce14f51a64bd8ad9::coin_mbx::MBX",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/mbx.svg",
+      "name": "MBX",
+      "source": "partners",
+      "symbol": "MBX",
+      "symbolWithBridge": "MBX",
+      "reserve": "1937365813125",
+      "reserveUsd": "3911.8904351417854361",
+      "priceUsd": 0.201918006844141
+    },
+    "coinY": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "77592519404",
+      "reserveUsd": "3864.1074663192",
+      "priceUsd": 4.98
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0x665d06fcd9c94430099f82973f2a5e5f13142e42fa172e72ce14f51a64bd8ad9::coin_mbx::MBX,0x1::aptos_coin::AptosCoin,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Uncorrelated>",
+    "fee": "30",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1752211758",
+    "normalizedFee": 0.003,
+    "tvl": "45274.38068280977",
+    "apr": 0.572419125914367,
+    "volume24": 0,
+    "stats": {
+      "pool": "APT-MBX",
+      "curve": "Uncorrelated",
+      "version": "v0.5",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 45274.38068280977
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 1656.7255700217163
+      }
+    }
+  },
+  {
+    "version": 0.5,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "39846548266",
+      "reserveUsd": "1984.3581036468",
+      "priceUsd": 4.98
+    },
+    "coinY": {
+      "type": "0x55987edfab9a57f69bac759674f139ae473b5e09a9283848c1f87faf6fc1e789::shrimp::ShrimpCoin",
+      "decimals": 2,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/shrimp.png",
+      "name": "SHRIMP",
+      "source": "partners",
+      "symbol": "SHRIMP",
+      "symbolWithBridge": "SHRIMP",
+      "reserve": "494327353",
+      "reserveUsd": "1963.6765675544835224",
+      "priceUsd": 0.000397242142405679
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0x1::aptos_coin::AptosCoin,0x55987edfab9a57f69bac759674f139ae473b5e09a9283848c1f87faf6fc1e789::shrimp::ShrimpCoin,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Uncorrelated>",
+    "fee": "1",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1752221895",
+    "normalizedFee": 0.0001,
+    "tvl": "1950.9567704117133",
+    "apr": 0.01006236093665105,
+    "volume24": 115.96229655005943,
+    "stats": {
+      "pool": "APT-SHRIMP",
+      "curve": "Uncorrelated",
+      "version": "v0.5",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 1950.9567704117133
+      },
+      "volume24H": {
+        "timestamp": "1752105600",
+        "value": 115.96229655005943
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 37.648936539671226
+      }
+    }
+  },
+  {
+    "version": 0.5,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "1816902249011",
+      "reserveUsd": "90481.7320007478",
+      "priceUsd": 4.98
+    },
+    "coinY": {
+      "type": "0x111ae3e5bc816a5e63c2da97d0aa3886519e0cd5e4b046659fa35796bd11542a::stapt_token::StakedApt",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/amstapt.svg",
+      "name": "Staked Aptos Coin",
+      "source": "amnis",
+      "symbol": "stAPT",
+      "symbolWithBridge": "amStApt",
+      "reserve": "1595864213334",
+      "reserveUsd": "90388.727553879477489",
+      "priceUsd": 5.66393599146157
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0x1::aptos_coin::AptosCoin,0x111ae3e5bc816a5e63c2da97d0aa3886519e0cd5e4b046659fa35796bd11542a::stapt_token::StakedApt,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Uncorrelated>",
+    "fee": "30",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1752225476",
+    "normalizedFee": 0.003,
+    "tvl": "166602.40392715766",
+    "apr": 1.470419556093355,
+    "volume24": 297.10269489182167,
+    "stats": {
+      "pool": "amStApt-APT",
+      "curve": "Uncorrelated",
+      "version": "v0.5",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 166602.40392715766
+      },
+      "volume24H": {
+        "timestamp": "1752105600",
+        "value": 297.10269489182167
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 15660.529952389033
+      }
+    }
+  },
+  {
+    "version": 0.5,
+    "curve": "stable",
+    "coinX": {
+      "type": "0xcc8a89c8dce9693d354449f1f73e60e14e347417854f029db5bc8e7454008abb::coin::T",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/weth.svg",
+      "name": "Wrapped Ether",
+      "source": "wormhole",
+      "symbol": "WETH",
+      "symbolWithBridge": "wWETH",
+      "reserve": "8945726221",
+      "reserveUsd": "267945.24194612988057",
+      "priceUsd": 2995.23186074185
+    },
+    "coinY": {
+      "type": "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::WETH",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/weth.svg",
+      "name": "Wrapped Ether",
+      "source": "layerzero",
+      "symbol": "WETH",
+      "symbolWithBridge": "zWETH",
+      "reserve": "110694281",
+      "reserveUsd": "332455.8111044139424",
+      "priceUsd": 3003.36935296968
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0xcc8a89c8dce9693d354449f1f73e60e14e347417854f029db5bc8e7454008abb::coin::T,0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::WETH,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Stable>",
+    "fee": "4",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1752226028",
+    "normalizedFee": 0.0004,
+    "tvl": "555247.4216676198",
+    "apr": 0.015099277481227974,
+    "volume24": 7042.658648989219,
+    "stats": {
+      "pool": "wWETH-zWETH",
+      "curve": "Stable",
+      "version": "v0.5",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 555247.4216676198
+      },
+      "volume24H": {
+        "timestamp": "1752105600",
+        "value": 7042.658648989219
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 4019.6468653061984
+      }
+    }
+  },
+  {
+    "version": 0.5,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDC",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/usdc.svg",
+      "name": "USD Coin",
+      "source": "layerzero",
+      "symbol": "USDC",
+      "symbolWithBridge": "zUSDC",
+      "reserve": "16350882132",
+      "reserveUsd": "16363.256052249861145",
+      "priceUsd": 1.00075677386394
+    },
+    "coinY": {
+      "type": "0x111ae3e5bc816a5e63c2da97d0aa3886519e0cd5e4b046659fa35796bd11542a::stapt_token::StakedApt",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/amstapt.svg",
+      "name": "Staked Aptos Coin",
+      "source": "amnis",
+      "symbol": "stAPT",
+      "symbolWithBridge": "amStApt",
+      "reserve": "288234683345",
+      "reserveUsd": "16325.427969852742527",
+      "priceUsd": 5.66393599146157
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDC,0x111ae3e5bc816a5e63c2da97d0aa3886519e0cd5e4b046659fa35796bd11542a::stapt_token::StakedApt,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Uncorrelated>",
+    "fee": "30",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1752225694",
+    "normalizedFee": 0.003,
+    "tvl": "31103.45704456859",
+    "apr": 2.8146384209487754,
+    "volume24": 859.1509688515649,
+    "stats": {
+      "pool": "amStApt-zUSDC",
+      "curve": "Uncorrelated",
+      "version": "v0.5",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 31103.45704456859
+      },
+      "volume24H": {
+        "timestamp": "1752105600",
+        "value": 859.1509688515649
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 5596.48307355076
+      }
+    }
+  },
+  {
+    "version": 0.5,
+    "curve": "stable",
+    "coinX": {
+      "type": "0xae478ff7d83ed072dbc5e264250e67ef58f57c99d89b447efd8a0a2e8b2be76e::coin::T",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/btc.svg",
+      "name": "Bitcoin",
+      "source": "wormhole",
+      "symbol": "BTC",
+      "symbolWithBridge": "wWBTC",
+      "reserve": "361779103",
+      "reserveUsd": "423446.9982162186024",
+      "priceUsd": 117045.731692308
+    },
+    "coinY": {
+      "type": "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::WBTC",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/wbtc.svg",
+      "name": "Wrapped BTC (LayerZero)",
+      "source": "layerzero",
+      "symbol": "WBTC",
+      "symbolWithBridge": "zWBTC",
+      "reserve": "4691759",
+      "reserveUsd": "522441.43572680128219",
+      "priceUsd": 111352.999104771
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0xae478ff7d83ed072dbc5e264250e67ef58f57c99d89b447efd8a0a2e8b2be76e::coin::T,0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::WBTC,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Stable>",
+    "fee": "4",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1752216924",
+    "normalizedFee": 0.0004,
+    "tvl": "923597.95187394",
+    "apr": 0.00016802053191217756,
+    "volume24": 5027.789150615,
+    "stats": {
+      "pool": "wWBTC-zWBTC",
+      "curve": "Stable",
+      "version": "v0.5",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 923597.95187394
+      },
+      "volume24H": {
+        "timestamp": "1752105600",
+        "value": 5027.789150615
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 74.40300918
+      }
+    }
+  },
+  {
+    "version": 0.5,
+    "curve": "stable",
+    "coinX": {
+      "type": "0xa2eda21a58856fda86451436513b867c97eecb4ba099da5775520e0f7492e852::coin::T",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/usdt.svg",
+      "name": "Tether USD",
+      "source": "wormhole",
+      "symbol": "USDT",
+      "symbolWithBridge": "wUSDT",
+      "reserve": "178982329",
+      "reserveUsd": "178.60183426176771117",
+      "priceUsd": 0.997874121203148
+    },
+    "coinY": {
+      "type": "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDT",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/usdt.svg",
+      "name": "Tether USD",
+      "source": "layerzero",
+      "symbol": "USDT",
+      "symbolWithBridge": "zUSDT",
+      "reserve": "153788293",
+      "reserveUsd": "153.21736418388481499",
+      "priceUsd": 0.996287566465705
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0xa2eda21a58856fda86451436513b867c97eecb4ba099da5775520e0f7492e852::coin::T,0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDT,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Stable>",
+    "fee": "4",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1752225862",
+    "normalizedFee": 0.0004,
+    "tvl": null,
+    "apr": null,
+    "volume24": 0
+  },
+  {
+    "version": 0.5,
+    "curve": "stable",
+    "coinX": {
+      "type": "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDC",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/usdc.svg",
+      "name": "USD Coin",
+      "source": "layerzero",
+      "symbol": "USDC",
+      "symbolWithBridge": "zUSDC",
+      "reserve": "210008483025",
+      "reserveUsd": "210167.41195615900715",
+      "priceUsd": 1.00075677386394
+    },
+    "coinY": {
+      "type": "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDT",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/usdt.svg",
+      "name": "Tether USD",
+      "source": "layerzero",
+      "symbol": "USDT",
+      "symbolWithBridge": "zUSDT",
+      "reserve": "225884238812",
+      "reserveUsd": "225045.65858896563103",
+      "priceUsd": 0.996287566465705
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDC,0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDT,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Stable>",
+    "fee": "4",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1752224777",
+    "normalizedFee": 0.0004,
+    "tvl": "436667.870913",
+    "apr": 0.48091365323236906,
+    "volume24": 15105.450236969144,
+    "stats": {
+      "pool": "zUSDC-zUSDT",
+      "curve": "Stable",
+      "version": "v0.5",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 436667.870913
+      },
+      "volume24H": {
+        "timestamp": "1752105600",
+        "value": 15105.450236969144
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 100684.71146231506
+      }
+    }
+  },
+  {
+    "version": 0.5,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDC",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/usdc.svg",
+      "name": "USD Coin",
+      "source": "layerzero",
+      "symbol": "USDC",
+      "symbolWithBridge": "zUSDC",
+      "reserve": "16134588",
+      "reserveUsd": "16.146798234503839957",
+      "priceUsd": 1.00075677386394
+    },
+    "coinY": {
+      "type": "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::WBTC",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/wbtc.svg",
+      "name": "Wrapped BTC (LayerZero)",
+      "source": "layerzero",
+      "symbol": "WBTC",
+      "symbolWithBridge": "zWBTC",
+      "reserve": "146",
+      "reserveUsd": "16.257537869296566",
+      "priceUsd": 111352.999104771
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDC,0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::WBTC,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Uncorrelated>",
+    "fee": "30",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1752143267",
+    "normalizedFee": 0.003,
+    "tvl": "338187.377045",
+    "apr": 0.37507237568919055,
+    "volume24": 5.017839261832655,
+    "stats": {
+      "pool": "zUSDC-zWBTC",
+      "curve": "Uncorrelated",
+      "version": "v0.5",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 338187.377045
+      },
+      "volume24H": {
+        "timestamp": "1752105600",
+        "value": 5.017839261832655
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 8108.7963520963385
+      }
+    }
+  },
+  {
+    "version": 0.5,
+    "curve": "stable",
+    "coinX": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "183333046056",
+      "reserveUsd": "9129.9856935888",
+      "priceUsd": 4.98
+    },
+    "coinY": {
+      "type": "0x111ae3e5bc816a5e63c2da97d0aa3886519e0cd5e4b046659fa35796bd11542a::stapt_token::StakedApt",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/amstapt.svg",
+      "name": "Staked Aptos Coin",
+      "source": "amnis",
+      "symbol": "stAPT",
+      "symbolWithBridge": "amStApt",
+      "reserve": "77774569040",
+      "reserveUsd": "4405.1018080606872647",
+      "priceUsd": 5.66393599146157
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0x1::aptos_coin::AptosCoin,0x111ae3e5bc816a5e63c2da97d0aa3886519e0cd5e4b046659fa35796bd11542a::stapt_token::StakedApt,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Stable>",
+    "fee": "4",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1752226580",
+    "normalizedFee": 0.0004,
+    "tvl": "12532.946694417533",
+    "apr": 1.1425773215274386,
+    "volume24": 825.8219845214503,
+    "stats": {
+      "pool": "amStApt-APT",
+      "curve": "Stable",
+      "version": "v0.5",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 12532.946694417533
+      },
+      "volume24H": {
+        "timestamp": "1752105600",
+        "value": 825.8219845214503
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 6865.686620183305
+      }
+    }
+  },
+  {
+    "version": 0,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "28077180863",
+      "reserveUsd": "1398.2436069774",
+      "priceUsd": 4.98
+    },
+    "coinY": {
+      "type": "0x2778b277644d375721766abfff0df2adca795f6cbae9f02ff1c95ce9adb6ee28::aptos_shiba_coin::AptosShibaCoin",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/aptshiba.svg",
+      "name": "Aptos Shiba",
+      "source": "partners",
+      "symbol": "APTSHIBA",
+      "symbolWithBridge": "AptosShibaCoin",
+      "reserve": "426559466326",
+      "priceUsd": 0
+    },
+    "networkId": 1,
+    "type": "0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::liquidity_pool::LiquidityPool<0x1::aptos_coin::AptosCoin,0x2778b277644d375721766abfff0df2adca795f6cbae9f02ff1c95ce9adb6ee28::aptos_shiba_coin::AptosShibaCoin,0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::curves::Uncorrelated>",
+    "fee": "30",
+    "lastBlockTimestamp": "1750694288",
+    "normalizedFee": 0.003,
+    "tvl": "2616.7931707468438",
+    "apr": null,
+    "volume24": 0,
+    "stats": {
+      "pool": "APT-AptosShibaCoin",
+      "curve": "Uncorrelated",
+      "version": "v0",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 2616.7931707468438
+      }
+    }
+  },
+  {
+    "version": 0,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0xcc8a89c8dce9693d354449f1f73e60e14e347417854f029db5bc8e7454008abb::coin::T",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/weth.svg",
+      "name": "Wrapped Ether",
+      "source": "wormhole",
+      "symbol": "WETH",
+      "symbolWithBridge": "wWETH",
+      "reserve": "39368117",
+      "reserveUsd": "1179.166383358128576",
+      "priceUsd": 2995.23186074185
+    },
+    "coinY": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "23682377980",
+      "reserveUsd": "1179.382423404",
+      "priceUsd": 4.98
+    },
+    "networkId": 1,
+    "type": "0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::liquidity_pool::LiquidityPool<0xcc8a89c8dce9693d354449f1f73e60e14e347417854f029db5bc8e7454008abb::coin::T,0x1::aptos_coin::AptosCoin,0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::curves::Uncorrelated>",
+    "fee": "30",
+    "lastBlockTimestamp": "1752225886",
+    "normalizedFee": 0.003,
+    "tvl": "2195.41082317057",
+    "apr": 2.1185486690609823,
+    "volume24": 122.60730142584987,
+    "stats": {
+      "pool": "APT-wWETH",
+      "curve": "Uncorrelated",
+      "version": "v0",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 2195.41082317057
+      },
+      "volume24H": {
+        "timestamp": "1752105600",
+        "value": 122.60730142584987
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 297.3296140848457
+      }
+    }
+  },
+  {
+    "version": 0,
+    "curve": "stable",
+    "coinX": {
+      "type": "0xa2eda21a58856fda86451436513b867c97eecb4ba099da5775520e0f7492e852::coin::T",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/usdt.svg",
+      "name": "Tether USD",
+      "source": "wormhole",
+      "symbol": "USDT",
+      "symbolWithBridge": "wUSDT",
+      "reserve": "2244914908",
+      "reserveUsd": "2240.1424909963458417",
+      "priceUsd": 0.997874121203148
+    },
+    "coinY": {
+      "type": "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDT",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/usdt.svg",
+      "name": "Tether USD",
+      "source": "layerzero",
+      "symbol": "USDT",
+      "symbolWithBridge": "zUSDT",
+      "reserve": "1860528478",
+      "reserveUsd": "1853.6213896867619628",
+      "priceUsd": 0.996287566465705
+    },
+    "networkId": 1,
+    "type": "0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::liquidity_pool::LiquidityPool<0xa2eda21a58856fda86451436513b867c97eecb4ba099da5775520e0f7492e852::coin::T,0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDT,0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::curves::Stable>",
+    "fee": "4",
+    "lastBlockTimestamp": "1752218095",
+    "normalizedFee": 0.0004,
+    "tvl": "4105.463052",
+    "apr": 0.26799647663794407,
+    "volume24": 122.90534298381168,
+    "stats": {
+      "pool": "wUSDT-zUSDT",
+      "curve": "Stable",
+      "version": "v0",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 4105.463052
+      },
+      "volume24H": {
+        "timestamp": "1752105600",
+        "value": 122.90534298381168
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 527.5169472823851
+      }
+    }
+  },
+  {
+    "version": 0,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0xdd89c0e695df0692205912fb69fc290418bed0dbe6e4573d744a6d5e6bab6c13::coin::T",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/sol.svg",
+      "name": "Solana",
+      "source": "wormhole",
+      "symbol": "SOL",
+      "symbolWithBridge": "wSOL",
+      "reserve": "408364674",
+      "reserveUsd": "698.28446659957132483",
+      "priceUsd": 170.995316455696
+    },
+    "coinY": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "13980015550",
+      "reserveUsd": "696.20477439",
+      "priceUsd": 4.98
+    },
+    "networkId": 1,
+    "type": "0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::liquidity_pool::LiquidityPool<0xdd89c0e695df0692205912fb69fc290418bed0dbe6e4573d744a6d5e6bab6c13::coin::T,0x1::aptos_coin::AptosCoin,0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::curves::Uncorrelated>",
+    "fee": "30",
+    "lastBlockTimestamp": "1752214091",
+    "normalizedFee": 0.003,
+    "tvl": "1294.8409580389302",
+    "apr": 0.6982072217254409,
+    "volume24": 22.64422607634777,
+    "stats": {
+      "pool": "APT-wSOL",
+      "curve": "Uncorrelated",
+      "version": "v0",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 1294.8409580389302
+      },
+      "volume24H": {
+        "timestamp": "1752105600",
+        "value": 22.64422607634777
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 57.79425712530307
+      }
+    }
+  },
+  {
+    "version": 0,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDT",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/usdt.svg",
+      "name": "Tether USD",
+      "source": "layerzero",
+      "symbol": "USDT",
+      "symbolWithBridge": "zUSDT",
+      "reserve": "1303425970",
+      "reserveUsd": "1298.5870877195010114",
+      "priceUsd": 0.996287566465705
+    },
+    "coinY": {
+      "type": "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::WETH",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/weth.svg",
+      "name": "Wrapped Ether",
+      "source": "layerzero",
+      "symbol": "WETH",
+      "symbolWithBridge": "zWETH",
+      "reserve": "434630",
+      "reserveUsd": "1305.3544218812120184",
+      "priceUsd": 3003.36935296968
+    },
+    "networkId": 1,
+    "type": "0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::liquidity_pool::LiquidityPool<0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDT,0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::WETH,0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::curves::Uncorrelated>",
+    "fee": "30",
+    "lastBlockTimestamp": "1752224434",
+    "normalizedFee": 0.003,
+    "tvl": "2507.065380378418",
+    "apr": 1.8845594156459504,
+    "volume24": 66.26755494665527,
+    "stats": {
+      "pool": "zUSDT-zWETH",
+      "curve": "Uncorrelated",
+      "version": "v0",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 2507.065380378418
+      },
+      "volume24H": {
+        "timestamp": "1752105600",
+        "value": 66.26755494665527
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 302.0364902066211
+      }
+    }
+  },
+  {
+    "version": 0.5,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::WETH",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/weth.svg",
+      "name": "Wrapped Ether",
+      "source": "layerzero",
+      "symbol": "WETH",
+      "symbolWithBridge": "zWETH",
+      "reserve": "129471",
+      "reserveUsd": "388.84923349833743928",
+      "priceUsd": 3003.36935296968
+    },
+    "coinY": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "7773176368",
+      "reserveUsd": "387.1041831264",
+      "priceUsd": 4.98
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::WETH,0x1::aptos_coin::AptosCoin,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Uncorrelated>",
+    "fee": "30",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1752222283",
+    "normalizedFee": 0.003,
+    "tvl": null,
+    "apr": null,
+    "volume24": 0
+  },
+  {
+    "version": 0,
+    "curve": "stable",
+    "coinX": {
+      "type": "0x5e156f1207d0ebfa19a9eeff00d62a282278fb8719f4fab3a586a0a2c0fffbea::coin::T",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/usdc.svg",
+      "name": "USD Coin",
+      "source": "wormhole",
+      "symbol": "USDC",
+      "symbolWithBridge": "wUSDC",
+      "reserve": "352174026",
+      "reserveUsd": "351.91581834022296268",
+      "priceUsd": 0.99926681799135
+    },
+    "coinY": {
+      "type": "0x1000000fa32d122c18a6a31c009ce5e71674f22d06a581bb0a15575e6addadcc::usda::USDA",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/usda.svg",
+      "name": "Argo USD",
+      "source": "partners",
+      "symbol": "USDA",
+      "symbolWithBridge": "USDA",
+      "reserve": "871363711",
+      "reserveUsd": "745.58442625252027765",
+      "priceUsd": 0.855652372069601
+    },
+    "networkId": 1,
+    "type": "0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::liquidity_pool::LiquidityPool<0x5e156f1207d0ebfa19a9eeff00d62a282278fb8719f4fab3a586a0a2c0fffbea::coin::T,0x1000000fa32d122c18a6a31c009ce5e71674f22d06a581bb0a15575e6addadcc::usda::USDA,0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::curves::Stable>",
+    "fee": "4",
+    "lastBlockTimestamp": "1752210741",
+    "normalizedFee": 0.0004,
+    "tvl": "1226.643923",
+    "apr": 0.07028771485927593,
+    "volume24": 12.995700081881731,
+    "stats": {
+      "pool": "USDA-wUSDC",
+      "curve": "Stable",
+      "version": "v0",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 1226.643923
+      },
+      "volume24H": {
+        "timestamp": "1752105600",
+        "value": 12.995700081881731
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 41.33739644217899
+      }
+    }
+  },
+  {
+    "version": 0.5,
+    "curve": "stable",
+    "coinX": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "4164264157",
+      "reserveUsd": "207.3803550186",
+      "priceUsd": 4.98
+    },
+    "coinY": {
+      "type": "0x84d7aeef42d38a5ffc3ccef853e1b82e4958659d16a7de736a29c55fbbeb0114::staked_aptos_coin::StakedAptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/tapt.svg",
+      "name": "Tortuga Staked APT",
+      "source": "partners",
+      "symbol": "tAPT",
+      "symbolWithBridge": "tAPT",
+      "reserve": "1682129110",
+      "reserveUsd": "97.090936519929151385",
+      "priceUsd": 5.77190751546587
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0x1::aptos_coin::AptosCoin,0x84d7aeef42d38a5ffc3ccef853e1b82e4958659d16a7de736a29c55fbbeb0114::staked_aptos_coin::StakedAptosCoin,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Stable>",
+    "fee": "4",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1752225694",
+    "normalizedFee": 0.0004,
+    "tvl": null,
+    "apr": null,
+    "volume24": 0
+  },
+  {
+    "version": 0,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::WETH",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/weth.svg",
+      "name": "Wrapped Ether",
+      "source": "layerzero",
+      "symbol": "WETH",
+      "symbolWithBridge": "zWETH",
+      "reserve": "76611",
+      "reserveUsd": "230.09112950036015448",
+      "priceUsd": 3003.36935296968
+    },
+    "coinY": {
+      "type": "0xd11107bdf0d6d7040c6c0bfbdecb6545191fdf13e8d8d259952f53e1713f61b5::staked_coin::StakedAptos",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/stapt.svg",
+      "name": "Ditto Staked Aptos",
+      "source": "partners",
+      "symbol": "stAPT",
+      "symbolWithBridge": "stAPT",
+      "reserve": "4176888992",
+      "reserveUsd": "230.60773227557789438",
+      "priceUsd": 5.52104048532918
+    },
+    "networkId": 1,
+    "type": "0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::liquidity_pool::LiquidityPool<0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::WETH,0xd11107bdf0d6d7040c6c0bfbdecb6545191fdf13e8d8d259952f53e1713f61b5::staked_coin::StakedAptos,0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::curves::Uncorrelated>",
+    "fee": "30",
+    "lastBlockTimestamp": "1752224961",
+    "normalizedFee": 0.003,
+    "tvl": null,
+    "apr": null,
+    "volume24": 0
+  },
+  {
+    "version": 0,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0x5e156f1207d0ebfa19a9eeff00d62a282278fb8719f4fab3a586a0a2c0fffbea::coin::T",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/usdc.svg",
+      "name": "USD Coin",
+      "source": "wormhole",
+      "symbol": "USDC",
+      "symbolWithBridge": "wUSDC",
+      "reserve": "749648466",
+      "reserveUsd": "749.09883723191672877",
+      "priceUsd": 0.99926681799135
+    },
+    "coinY": {
+      "type": "0xae478ff7d83ed072dbc5e264250e67ef58f57c99d89b447efd8a0a2e8b2be76e::coin::T",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/btc.svg",
+      "name": "Bitcoin",
+      "source": "wormhole",
+      "symbol": "BTC",
+      "symbolWithBridge": "wWBTC",
+      "reserve": "644505",
+      "reserveUsd": "754.3655930435096754",
+      "priceUsd": 117045.731692308
+    },
+    "networkId": 1,
+    "type": "0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::liquidity_pool::LiquidityPool<0x5e156f1207d0ebfa19a9eeff00d62a282278fb8719f4fab3a586a0a2c0fffbea::coin::T,0xae478ff7d83ed072dbc5e264250e67ef58f57c99d89b447efd8a0a2e8b2be76e::coin::T,0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::curves::Uncorrelated>",
+    "fee": "30",
+    "lastBlockTimestamp": "1752213350",
+    "normalizedFee": 0.003,
+    "tvl": "1465.61139473",
+    "apr": 0.5236042483876627,
+    "volume24": 13.473868514898516,
+    "stats": {
+      "pool": "wUSDC-wWBTC",
+      "curve": "Uncorrelated",
+      "version": "v0",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 1465.61139473
+      },
+      "volume24H": {
+        "timestamp": "1752105600",
+        "value": 13.473868514898516
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 49.057556797826216
+      }
+    }
+  },
+  {
+    "version": 0,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0x1000000fa32d122c18a6a31c009ce5e71674f22d06a581bb0a15575e6addadcc::usda::USDA",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/usda.svg",
+      "name": "Argo USD",
+      "source": "partners",
+      "symbol": "USDA",
+      "symbolWithBridge": "USDA",
+      "reserve": "284258154",
+      "reserveUsd": "243.22616375022593978",
+      "priceUsd": 0.855652372069601
+    },
+    "coinY": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "4927667705",
+      "reserveUsd": "245.397851709",
+      "priceUsd": 4.98
+    },
+    "networkId": 1,
+    "type": "0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::liquidity_pool::LiquidityPool<0x1000000fa32d122c18a6a31c009ce5e71674f22d06a581bb0a15575e6addadcc::usda::USDA,0x1::aptos_coin::AptosCoin,0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::curves::Uncorrelated>",
+    "fee": "30",
+    "lastBlockTimestamp": "1752197138",
+    "normalizedFee": 0.003,
+    "tvl": null,
+    "apr": null,
+    "volume24": 0
+  },
+  {
+    "version": 0,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0x1000000fa32d122c18a6a31c009ce5e71674f22d06a581bb0a15575e6addadcc::usda::USDA",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/usda.svg",
+      "name": "Argo USD",
+      "source": "partners",
+      "symbol": "USDA",
+      "symbolWithBridge": "USDA",
+      "reserve": "340356209",
+      "reserveUsd": "291.2265975794668805",
+      "priceUsd": 0.855652372069601
+    },
+    "coinY": {
+      "type": "0x84d7aeef42d38a5ffc3ccef853e1b82e4958659d16a7de736a29c55fbbeb0114::staked_aptos_coin::StakedAptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/tapt.svg",
+      "name": "Tortuga Staked APT",
+      "source": "partners",
+      "symbol": "tAPT",
+      "symbolWithBridge": "tAPT",
+      "reserve": "5019845102",
+      "reserveUsd": "289.74081670708336768",
+      "priceUsd": 5.77190751546587
+    },
+    "networkId": 1,
+    "type": "0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::liquidity_pool::LiquidityPool<0x1000000fa32d122c18a6a31c009ce5e71674f22d06a581bb0a15575e6addadcc::usda::USDA,0x84d7aeef42d38a5ffc3ccef853e1b82e4958659d16a7de736a29c55fbbeb0114::staked_aptos_coin::StakedAptosCoin,0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::curves::Uncorrelated>",
+    "fee": "30",
+    "lastBlockTimestamp": "1752210741",
+    "normalizedFee": 0.003,
+    "tvl": "1115.9314502907505",
+    "apr": 0.26996657351187336,
+    "volume24": 5.153274392506652,
+    "stats": {
+      "pool": "tAPT-USDA",
+      "curve": "Uncorrelated",
+      "version": "v0",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 1115.9314502907505
+      },
+      "volume24H": {
+        "timestamp": "1752105600",
+        "value": 5.153274392506652
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 19.258897985058496
+      }
+    }
+  },
+  {
+    "version": 0.5,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0x4fbed3f8a3fd8a11081c8b6392152a8b0cb14d70d0414586f0c9b858fcd2d6a7::UPTOS::UPTOS",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/uptos.svg",
+      "name": "UPTOS",
+      "source": "aptos",
+      "symbol": "UPTOS",
+      "symbolWithBridge": "UPTOS",
+      "reserve": "1778296205148286365",
+      "reserveUsd": "9567.8171061086114907",
+      "priceUsd": 5.38032813566668e-7
+    },
+    "coinY": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "193861140170",
+      "reserveUsd": "9654.284780466",
+      "priceUsd": 4.98
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0x4fbed3f8a3fd8a11081c8b6392152a8b0cb14d70d0414586f0c9b858fcd2d6a7::UPTOS::UPTOS,0x1::aptos_coin::AptosCoin,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Uncorrelated>",
+    "fee": "1",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1752221806",
+    "normalizedFee": 0.0001,
+    "tvl": "18658.903966041587",
+    "apr": 0.0004105545338523646,
+    "volume24": 460.34379123305735,
+    "stats": {
+      "pool": "APT-UPTOS",
+      "curve": "Uncorrelated",
+      "version": "v0.5",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 18658.903966041587
+      },
+      "volume24H": {
+        "timestamp": "1752105600",
+        "value": 460.34379123305735
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 14.691365298580733
+      }
+    }
+  },
+  {
+    "version": 0.5,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "2436171331",
+      "reserveUsd": "121.3213322838",
+      "priceUsd": 4.98
+    },
+    "coinY": {
+      "type": "0xbe3c4b493632b4d776d56e19d91dcfb34f591f759f6b57f8632d455360da503c::dumdum_coin::DumdumCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/dumdum.png",
+      "name": "Dumdum",
+      "source": "aptos",
+      "symbol": "DUMDUM",
+      "symbolWithBridge": "DumdumCoin",
+      "reserve": "141330081121112",
+      "reserveUsd": "111.41816401363649894",
+      "priceUsd": 0.0000788354206902049
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0x1::aptos_coin::AptosCoin,0xbe3c4b493632b4d776d56e19d91dcfb34f591f759f6b57f8632d455360da503c::dumdum_coin::DumdumCoin,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Uncorrelated>",
+    "fee": "30",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1752087403",
+    "normalizedFee": 0.003,
+    "tvl": null,
+    "apr": null,
+    "volume24": 0
+  },
+  {
+    "version": 0.5,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "2679180403",
+      "reserveUsd": "133.4231840694",
+      "priceUsd": 4.98
+    },
+    "coinY": {
+      "type": "0x9770fa9c725cbd97eb50b2be5f7416efdfd1f1554beb0750d4dae4c64e860da3::fa_to_coin_wrapper::WrappedUSDT",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/usdt-fa.svg",
+      "name": "Tether USD",
+      "source": "tether",
+      "symbol": "USDt",
+      "symbolWithBridge": "WrappedUSDT",
+      "reserve": "130406851",
+      "reserveUsd": "132.28758815761292568",
+      "priceUsd": 1.01442207325145
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0x1::aptos_coin::AptosCoin,0x9770fa9c725cbd97eb50b2be5f7416efdfd1f1554beb0750d4dae4c64e860da3::fa_to_coin_wrapper::WrappedUSDT,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Uncorrelated>",
+    "fee": "30",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1752224961",
+    "normalizedFee": 0.003,
+    "tvl": null,
+    "apr": null,
+    "volume24": 0
+  },
+  {
+    "version": 0.5,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0xe88ae9670071da40a9a6b1d97aab8f6f1898fdc3b8f1c1038b492dfad738448b::coin::Donk",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/donk.png",
+      "name": "Donk",
+      "source": "aptos",
+      "symbol": "Donk",
+      "symbolWithBridge": "Donk",
+      "reserve": "20968992039256220",
+      "reserveUsd": "7434.035030072709091",
+      "priceUsd": 0.0000354525149141904
+    },
+    "coinY": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "161755688990",
+      "reserveUsd": "8055.433311702",
+      "priceUsd": 4.98
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0xe88ae9670071da40a9a6b1d97aab8f6f1898fdc3b8f1c1038b492dfad738448b::coin::Donk,0x1::aptos_coin::AptosCoin,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Uncorrelated>",
+    "fee": "30",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1752141171",
+    "normalizedFee": 0.003,
+    "tvl": "15222.187956553607",
+    "apr": 0.2887257672403445,
+    "volume24": 108.81169626816786,
+    "stats": {
+      "pool": "APT-DONK",
+      "curve": "Uncorrelated",
+      "version": "v0.5",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 15222.187956553607
+      },
+      "volume24H": {
+        "timestamp": "1752105600",
+        "value": 108.81169626816786
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 280.96132673816163
+      }
+    }
+  },
+  {
+    "version": 0.5,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0x2dcbc03740a6fa2efee926b9df329184cce357d0573bdab09930f4d48e61a4c8::STOS::STOS",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/stos.png",
+      "name": "sherritos",
+      "source": "aptos",
+      "symbol": "STOS",
+      "symbolWithBridge": "STOS",
+      "reserve": "598549421765760",
+      "priceUsd": 0
+    },
+    "coinY": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "40232375663",
+      "reserveUsd": "2003.5723080174",
+      "priceUsd": 4.98
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0x2dcbc03740a6fa2efee926b9df329184cce357d0573bdab09930f4d48e61a4c8::STOS::STOS,0x1::aptos_coin::AptosCoin,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Uncorrelated>",
+    "fee": "30",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1750615114",
+    "normalizedFee": 0.003,
+    "tvl": "3749.657289012133",
+    "apr": null,
+    "volume24": 0,
+    "stats": {
+      "pool": "APT-STOS",
+      "curve": "Uncorrelated",
+      "version": "v0.5",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 3749.657289012133
+      }
+    }
+  },
+  {
+    "version": 0.5,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0x967adbf2e05fe665ab86a3bf2c4acfa39fbf62097963474ef70a0786dae8cfa2::NRUH::NRUH",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/nruh.png",
+      "name": "nRuH BeRs",
+      "source": "aptos",
+      "symbol": "NRUH",
+      "symbolWithBridge": "NRUH",
+      "reserve": "703109651591854",
+      "reserveUsd": "1617.771517856549731",
+      "priceUsd": 0.00000230088082874966
+    },
+    "coinY": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "34314340335",
+      "reserveUsd": "1708.854148683",
+      "priceUsd": 4.98
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0x967adbf2e05fe665ab86a3bf2c4acfa39fbf62097963474ef70a0786dae8cfa2::NRUH::NRUH,0x1::aptos_coin::AptosCoin,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Uncorrelated>",
+    "fee": "30",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1751918211",
+    "normalizedFee": 0.003,
+    "tvl": "3198.0964145029434",
+    "apr": null,
+    "volume24": 0,
+    "stats": {
+      "pool": "APT-NRUH",
+      "curve": "Uncorrelated",
+      "version": "v0.5",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 3198.0964145029434
+      }
+    }
+  },
+  {
+    "version": 0.5,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0x268d4a7a2ad93274edf6116f9f20ad8455223a7ab5fc73154f687e7dbc3e3ec6::LOON::LOON",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/loon.png",
+      "name": "The Loonies",
+      "source": "aptos",
+      "symbol": "LOON",
+      "symbolWithBridge": "LOON",
+      "reserve": "82927735654461",
+      "reserveUsd": "22236.346201064850042",
+      "priceUsd": 0.000268141244006928
+    },
+    "coinY": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "440058635640",
+      "reserveUsd": "21914.920054872",
+      "priceUsd": 4.98
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0x268d4a7a2ad93274edf6116f9f20ad8455223a7ab5fc73154f687e7dbc3e3ec6::LOON::LOON,0x1::aptos_coin::AptosCoin,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Uncorrelated>",
+    "fee": "30",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1752226746",
+    "normalizedFee": 0.003,
+    "tvl": "41057.5259699797",
+    "apr": 1.4029441214198013,
+    "volume24": 1063.7013231729486,
+    "stats": {
+      "pool": "APT-LOON",
+      "curve": "Uncorrelated",
+      "version": "v0.5",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 41057.5259699797
+      },
+      "volume24H": {
+        "timestamp": "1752105600",
+        "value": 1063.7013231729486
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 3682.282218240794
+      }
+    }
+  },
+  {
+    "version": 1,
+    "binStep": 5,
+    "coinX": {
+      "type": "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDC",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/usdc.svg",
+      "name": "USD Coin",
+      "source": "layerzero",
+      "symbol": "USDC",
+      "symbolWithBridge": "zUSDC",
+      "reserve": "0",
+      "reserveUsd": "0",
+      "priceUsd": 1.00075677386394
+    },
+    "coinY": {
+      "type": "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDT",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/usdt.svg",
+      "name": "Tether USD",
+      "source": "layerzero",
+      "symbol": "USDT",
+      "symbolWithBridge": "zUSDT",
+      "reserve": "0",
+      "reserveUsd": "0",
+      "priceUsd": 0.996287566465705
+    },
+    "networkId": 1,
+    "type": "0x54cb0bb2c18564b86e34539b9f89cfe1186e39d89fce54e1cd007b8e61673a85::pool::Pool<0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDC,0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDT,0x54cb0bb2c18564b86e34539b9f89cfe1186e39d89fce54e1cd007b8e61673a85::bin_steps::X5>",
+    "normalizedFee": null,
+    "tvl": null,
+    "apr": null,
+    "volume24": 0
+  },
+  {
+    "version": 1,
+    "binStep": 80,
+    "coinX": {
+      "type": "0x73eb84966be67e4697fc5ae75173ca6c35089e802650f75422ab49a8729704ec::coin::DooDoo",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/doodoo.svg",
+      "name": "DooDoo",
+      "source": "aptos",
+      "symbol": "doodoo",
+      "symbolWithBridge": "doodoo",
+      "reserve": "0",
+      "reserveUsd": "0",
+      "priceUsd": 0.131835775400143
+    },
+    "coinY": {
+      "type": "0xdf3d5eb83df80dfde8ceb1edaa24d8dbc46da6a89ae134a858338e1b86a29e38::coin::Returd",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/returd.png",
+      "name": "RETuRD",
+      "source": "partners",
+      "symbol": "RETuRD",
+      "symbolWithBridge": "RETuRD",
+      "reserve": "0",
+      "reserveUsd": "0",
+      "priceUsd": 1.37186447970903
+    },
+    "networkId": 1,
+    "type": "0x54cb0bb2c18564b86e34539b9f89cfe1186e39d89fce54e1cd007b8e61673a85::pool::Pool<0x73eb84966be67e4697fc5ae75173ca6c35089e802650f75422ab49a8729704ec::coin::DooDoo,0xdf3d5eb83df80dfde8ceb1edaa24d8dbc46da6a89ae134a858338e1b86a29e38::coin::Returd,0x54cb0bb2c18564b86e34539b9f89cfe1186e39d89fce54e1cd007b8e61673a85::bin_steps::X80>",
+    "normalizedFee": null,
+    "tvl": null,
+    "apr": null,
+    "volume24": 0
+  },
+  {
+    "version": 1,
+    "binStep": 20,
+    "coinX": {
+      "type": "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDC",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/usdc.svg",
+      "name": "USD Coin",
+      "source": "layerzero",
+      "symbol": "USDC",
+      "symbolWithBridge": "zUSDC",
+      "reserve": "0",
+      "reserveUsd": "0",
+      "priceUsd": 1.00075677386394
+    },
+    "coinY": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "0",
+      "reserveUsd": "0",
+      "priceUsd": 4.98
+    },
+    "networkId": 1,
+    "type": "0x54cb0bb2c18564b86e34539b9f89cfe1186e39d89fce54e1cd007b8e61673a85::pool::Pool<0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDC,0x1::aptos_coin::AptosCoin,0x54cb0bb2c18564b86e34539b9f89cfe1186e39d89fce54e1cd007b8e61673a85::bin_steps::X20>",
+    "normalizedFee": null,
+    "tvl": null,
+    "apr": null,
+    "volume24": 0,
+    "coinXVault": "0x6e24baa92d82586c89dbd02bf6aeb0939fa98ea112254e76223226f2d176c5d1",
+    "coinYVault": "0x56f5867e504864ee885a654a11f5a7dbc8bad6af1625ac75510e45affa9b10c6"
+  },
+  {
+    "version": 1,
+    "binStep": 80,
+    "coinX": {
+      "type": "0x73eb84966be67e4697fc5ae75173ca6c35089e802650f75422ab49a8729704ec::coin::DooDoo",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/doodoo.svg",
+      "name": "DooDoo",
+      "source": "aptos",
+      "symbol": "doodoo",
+      "symbolWithBridge": "doodoo",
+      "reserve": "0",
+      "reserveUsd": "0",
+      "priceUsd": 0.131835775400143
+    },
+    "coinY": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "0",
+      "reserveUsd": "0",
+      "priceUsd": 4.98
+    },
+    "networkId": 1,
+    "type": "0x54cb0bb2c18564b86e34539b9f89cfe1186e39d89fce54e1cd007b8e61673a85::pool::Pool<0x73eb84966be67e4697fc5ae75173ca6c35089e802650f75422ab49a8729704ec::coin::DooDoo,0x1::aptos_coin::AptosCoin,0x54cb0bb2c18564b86e34539b9f89cfe1186e39d89fce54e1cd007b8e61673a85::bin_steps::X80>",
+    "normalizedFee": null,
+    "tvl": null,
+    "apr": null,
+    "volume24": 0
+  },
+  {
+    "version": 1,
+    "binStep": 10,
+    "coinX": {
+      "type": "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDC",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/usdc.svg",
+      "name": "USD Coin",
+      "source": "layerzero",
+      "symbol": "USDC",
+      "symbolWithBridge": "zUSDC",
+      "reserve": "0",
+      "reserveUsd": "0",
+      "priceUsd": 1.00075677386394
+    },
+    "coinY": {
+      "type": "0xcfea864b32833f157f042618bd845145256b1bf4c0da34a7013b76e42daa53cc::usdy::USDY",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/usdy.png",
+      "name": "Ondo US Dollar Yield",
+      "source": "aptos",
+      "symbol": "USDY",
+      "symbolWithBridge": "USDY",
+      "reserve": "0",
+      "reserveUsd": "0",
+      "priceUsd": 1.32554995004139
+    },
+    "networkId": 1,
+    "type": "0x54cb0bb2c18564b86e34539b9f89cfe1186e39d89fce54e1cd007b8e61673a85::pool::Pool<0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDC,0xcfea864b32833f157f042618bd845145256b1bf4c0da34a7013b76e42daa53cc::usdy::USDY,0x54cb0bb2c18564b86e34539b9f89cfe1186e39d89fce54e1cd007b8e61673a85::bin_steps::X10>",
+    "normalizedFee": null,
+    "tvl": null,
+    "apr": null,
+    "volume24": 0
+  },
+  {
+    "version": 0.5,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0xe1bfc010d2bdd576036f4c1f3ea7d547f19188f5b78075dd961420d843ee914c::brew_coin::BrewCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/brewtos.png",
+      "name": "Brewtos",
+      "source": "aptos",
+      "symbol": "BREW",
+      "symbolWithBridge": "BREW",
+      "reserve": "5905567096091097",
+      "priceUsd": 0
+    },
+    "coinY": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "3409716715",
+      "reserveUsd": "169.803892407",
+      "priceUsd": 4.98
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0xe1bfc010d2bdd576036f4c1f3ea7d547f19188f5b78075dd961420d843ee914c::brew_coin::BrewCoin,0x1::aptos_coin::AptosCoin,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Uncorrelated>",
+    "fee": "30",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1749902692",
+    "normalizedFee": 0.003,
+    "tvl": null,
+    "apr": null,
+    "volume24": 0
+  },
+  {
+    "version": 0.5,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0x53a30a6e5936c0a4c5140daed34de39d17ca7fcae08f947c02e979cef98a3719::coin::LSD",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/lsd.png",
+      "name": "Liquidswap",
+      "source": "aptos",
+      "symbol": "LSD",
+      "symbolWithBridge": "LSD",
+      "reserve": "13010646316396",
+      "reserveUsd": "31925.240040957048921",
+      "priceUsd": 0.245377818016042
+    },
+    "coinY": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "641700646898",
+      "reserveUsd": "31956.6922155204",
+      "priceUsd": 4.98
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0x53a30a6e5936c0a4c5140daed34de39d17ca7fcae08f947c02e979cef98a3719::coin::LSD,0x1::aptos_coin::AptosCoin,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Uncorrelated>",
+    "fee": "30",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1752226634",
+    "normalizedFee": 0.003,
+    "tvl": "62052.71741599922",
+    "apr": 1.5159997157727914,
+    "volume24": 2464.865499438578,
+    "stats": {
+      "pool": "APT-LSD",
+      "curve": "Uncorrelated",
+      "version": "v0.5",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 62052.71741599922
+      },
+      "volume24H": {
+        "timestamp": "1752105600",
+        "value": 2464.865499438578
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 6013.72889277707
+      }
+    }
+  },
+  {
+    "version": 0.5,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0x53a30a6e5936c0a4c5140daed34de39d17ca7fcae08f947c02e979cef98a3719::coin::LSD",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/lsd.png",
+      "name": "Liquidswap",
+      "source": "aptos",
+      "symbol": "LSD",
+      "symbolWithBridge": "LSD",
+      "reserve": "10359643232027",
+      "reserveUsd": "25420.266516994423738",
+      "priceUsd": 0.245377818016042
+    },
+    "coinY": {
+      "type": "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDC",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/usdc.svg",
+      "name": "USD Coin",
+      "source": "layerzero",
+      "symbol": "USDC",
+      "symbolWithBridge": "zUSDC",
+      "reserve": "25305049493",
+      "reserveUsd": "25324.199693082010548",
+      "priceUsd": 1.00075677386394
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0x53a30a6e5936c0a4c5140daed34de39d17ca7fcae08f947c02e979cef98a3719::coin::LSD,0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDC,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Uncorrelated>",
+    "fee": "30",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1752218070",
+    "normalizedFee": 0.003,
+    "tvl": "50753.096864",
+    "apr": 0.9687806821068651,
+    "volume24": 1120.3170258546709,
+    "stats": {
+      "pool": "LSD-zUSDC",
+      "curve": "Uncorrelated",
+      "version": "v0.5",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 50753.096864
+      },
+      "volume24H": {
+        "timestamp": "1752105600",
+        "value": 1120.3170258546709
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 3143.1994392017527
+      }
+    }
+  },
+  {
+    "version": 0.5,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0x53a30a6e5936c0a4c5140daed34de39d17ca7fcae08f947c02e979cef98a3719::coin::LSD",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/lsd.png",
+      "name": "Liquidswap",
+      "source": "aptos",
+      "symbol": "LSD",
+      "symbolWithBridge": "LSD",
+      "reserve": "5115479762480",
+      "reserveUsd": "12552.25262222563195",
+      "priceUsd": 0.245377818016042
+    },
+    "coinY": {
+      "type": "0x73eb84966be67e4697fc5ae75173ca6c35089e802650f75422ab49a8729704ec::coin::DooDoo",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/doodoo.svg",
+      "name": "DooDoo",
+      "source": "aptos",
+      "symbol": "doodoo",
+      "symbolWithBridge": "doodoo",
+      "reserve": "9469353722910",
+      "reserveUsd": "12483.99590598070712",
+      "priceUsd": 0.131835775400143
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0x53a30a6e5936c0a4c5140daed34de39d17ca7fcae08f947c02e979cef98a3719::coin::LSD,0x73eb84966be67e4697fc5ae75173ca6c35089e802650f75422ab49a8729704ec::coin::DooDoo,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Uncorrelated>",
+    "fee": "30",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1752218070",
+    "normalizedFee": 0.003,
+    "tvl": "23796.637371512137",
+    "apr": 0.8077032359783225,
+    "volume24": 527.7432734200213,
+    "stats": {
+      "pool": "DooDoo-LSD",
+      "curve": "Uncorrelated",
+      "version": "v0.5",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 23796.637371512137
+      },
+      "volume24H": {
+        "timestamp": "1752105600",
+        "value": 527.7432734200213
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 1228.7154983800115
+      }
+    }
+  },
+  {
+    "version": 0,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0x65957cb717d1ec5e13c003cbad0d20d8f7f95236ea0f8bb8c419e533eda73890::TOAST::TOAST",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/aptoast.png",
+      "name": "Aptoast",
+      "source": "aptos",
+      "symbol": "TOAST",
+      "symbolWithBridge": "TOAST",
+      "reserve": "72897920899907795",
+      "priceUsd": 0
+    },
+    "coinY": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "40666650662",
+      "reserveUsd": "2025.1992029676",
+      "priceUsd": 4.98
+    },
+    "networkId": 1,
+    "type": "0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::liquidity_pool::LiquidityPool<0x65957cb717d1ec5e13c003cbad0d20d8f7f95236ea0f8bb8c419e533eda73890::TOAST::TOAST,0x1::aptos_coin::AptosCoin,0x190d44266241744264b964a37b8f09863167a12d3e70cda39376cfb4e3561e12::curves::Uncorrelated>",
+    "fee": "30",
+    "lastBlockTimestamp": "1750818203",
+    "normalizedFee": 0.003,
+    "tvl": "3790.131717593631",
+    "apr": null,
+    "volume24": 0,
+    "stats": {
+      "pool": "APT-TOAST",
+      "curve": "Uncorrelated",
+      "version": "v0",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 3790.131717593631
+      }
+    }
+  },
+  {
+    "version": 0.5,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0x5ae6789dd2fec1a9ec9cccfb3acaf12e93d432f0a3a42c92fe1a9d490b7bbc06::mkl_token::MKL",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/mkl.svg",
+      "name": "MKL",
+      "source": "aptos",
+      "symbol": "MKL",
+      "symbolWithBridge": "MKL",
+      "reserve": "498319358916",
+      "reserveUsd": "37375.688426207122775",
+      "priceUsd": 0.0750034847281689
+    },
+    "coinY": {
+      "type": "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDC",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/usdc.svg",
+      "name": "USD Coin",
+      "source": "layerzero",
+      "symbol": "USDC",
+      "symbolWithBridge": "zUSDC",
+      "reserve": "37269144916",
+      "reserveUsd": "37297.349230803821127",
+      "priceUsd": 1.00075677386394
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0x5ae6789dd2fec1a9ec9cccfb3acaf12e93d432f0a3a42c92fe1a9d490b7bbc06::mkl_token::MKL,0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDC,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Uncorrelated>",
+    "fee": "30",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1752224107",
+    "normalizedFee": 0.003,
+    "tvl": "77847.59159",
+    "apr": 5.515676569789693,
+    "volume24": 5860.454563934313,
+    "stats": {
+      "pool": "MKL-zUSDC",
+      "curve": "Uncorrelated",
+      "version": "v0.5",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 77847.59159
+      },
+      "volume24H": {
+        "timestamp": "1752105600",
+        "value": 5860.454563934313
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 27449.08638020677
+      }
+    }
+  },
+  {
+    "version": 0.5,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0x61ed8b048636516b4eaf4c74250fa4f9440d9c3e163d96aeb863fe658a4bdc67::CASH::CASH",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/CASH.png",
+      "name": "CASH",
+      "source": "aptos",
+      "symbol": "CASH",
+      "symbolWithBridge": "CASH",
+      "reserve": "89553002372651",
+      "reserveUsd": "19843.837756521888675",
+      "priceUsd": 0.000221587632248744
+    },
+    "coinY": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "396349473028",
+      "reserveUsd": "19738.2037567944",
+      "priceUsd": 4.98
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0x61ed8b048636516b4eaf4c74250fa4f9440d9c3e163d96aeb863fe658a4bdc67::CASH::CASH,0x1::aptos_coin::AptosCoin,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Uncorrelated>",
+    "fee": "30",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1752204544",
+    "normalizedFee": 0.003,
+    "tvl": "36908.526491539225",
+    "apr": 1.242421115170852,
+    "volume24": 489.98709140743813,
+    "stats": {
+      "pool": "APT-CASH",
+      "curve": "Uncorrelated",
+      "version": "v0.5",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 36908.526491539225
+      },
+      "volume24H": {
+        "timestamp": "1752105600",
+        "value": 489.98709140743813
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 2931.4294840229923
+      }
+    }
+  },
+  {
+    "version": 0.5,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0xc26a8eda1c3ab69a157815183ddda88c89d6758ee491dd1647a70af2907ce074::coin::Chewy",
+      "decimals": 0,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/chewy.png",
+      "name": "Chewy",
+      "source": "aptos",
+      "symbol": "CHEWY",
+      "symbolWithBridge": "CHEWY",
+      "reserve": "36068462550",
+      "reserveUsd": "17795.180427983106518",
+      "priceUsd": 4.93372302834214e-7
+    },
+    "coinY": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "362037314870",
+      "reserveUsd": "18029.458280526",
+      "priceUsd": 4.98
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0xc26a8eda1c3ab69a157815183ddda88c89d6758ee491dd1647a70af2907ce074::coin::Chewy,0x1::aptos_coin::AptosCoin,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Uncorrelated>",
+    "fee": "30",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1752226769",
+    "normalizedFee": 0.003,
+    "tvl": "33926.9746930701",
+    "apr": 1.1496561812472665,
+    "volume24": 199.56443853547555,
+    "stats": {
+      "pool": "APT-CHEWY",
+      "curve": "Uncorrelated",
+      "version": "v0.5",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 33926.9746930701
+      },
+      "volume24H": {
+        "timestamp": "1752105600",
+        "value": 199.56443853547555
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 2493.4291613548253
+      }
+    }
+  },
+  {
+    "version": 0.5,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0xc82974034820c34f065f948f1bee473d481bf99fde2d23e981043e5038cb36be::WOOF::Woof",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/woof.png",
+      "name": "Woof",
+      "source": "aptos",
+      "symbol": "Woof",
+      "symbolWithBridge": "Woof",
+      "reserve": "354678449218348",
+      "reserveUsd": "2086.8334649107622178",
+      "priceUsd": 0.00000588373347608177
+    },
+    "coinY": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "44906623925",
+      "reserveUsd": "2236.349871465",
+      "priceUsd": 4.98
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0xc82974034820c34f065f948f1bee473d481bf99fde2d23e981043e5038cb36be::WOOF::Woof,0x1::aptos_coin::AptosCoin,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Uncorrelated>",
+    "fee": "30",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1752099065",
+    "normalizedFee": 0.003,
+    "tvl": "4185.2972127658595",
+    "apr": null,
+    "volume24": 0,
+    "stats": {
+      "pool": "APT-Woof",
+      "curve": "Uncorrelated",
+      "version": "v0.5",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 4185.2972127658595
+      }
+    }
+  },
+  {
+    "version": 0.5,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0xf9cd51e1211f467c52d91c96491aae6c7a068e5f23736e2b58f885412346624c::PP1::PP",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/PP.PNG",
+      "name": "PP Token",
+      "source": "aptos",
+      "symbol": "PP",
+      "symbolWithBridge": "PP",
+      "reserve": "621861838123323",
+      "reserveUsd": "1898.1576145388391229",
+      "priceUsd": 0.00000305237835508152
+    },
+    "coinY": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "40845603254",
+      "reserveUsd": "2034.1110420492",
+      "priceUsd": 4.98
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0xf9cd51e1211f467c52d91c96491aae6c7a068e5f23736e2b58f885412346624c::PP1::PP,0x1::aptos_coin::AptosCoin,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Uncorrelated>",
+    "fee": "30",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1752096930",
+    "normalizedFee": 0.003,
+    "tvl": "3806.810098621911",
+    "apr": 0.018397415358068922,
+    "volume24": 0,
+    "stats": {
+      "pool": "APT-PP",
+      "curve": "Uncorrelated",
+      "version": "v0.5",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 3806.810098621911
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 4.477153114296532
+      }
+    }
+  },
+  {
+    "version": 0.5,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0xa8c3d4ec01aa0bcaa23bac67d0c3e9d5df2d9e8b82a01ad4f8448aebf3d9a961::POK::POK",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/POK.png",
+      "name": "Purrfectly Okay Coin",
+      "source": "aptos",
+      "symbol": "POK",
+      "symbolWithBridge": "POK",
+      "reserve": "673546127934013",
+      "priceUsd": 0
+    },
+    "coinY": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "38620614710",
+      "reserveUsd": "1923.306612558",
+      "priceUsd": 4.98
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0xa8c3d4ec01aa0bcaa23bac67d0c3e9d5df2d9e8b82a01ad4f8448aebf3d9a961::POK::POK,0x1::aptos_coin::AptosCoin,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Uncorrelated>",
+    "fee": "30",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1750819563",
+    "normalizedFee": 0.003,
+    "tvl": "3599.441173111237",
+    "apr": null,
+    "volume24": 0,
+    "stats": {
+      "pool": "APT-POK",
+      "curve": "Uncorrelated",
+      "version": "v0.5",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 3599.441173111237
+      }
+    }
+  },
+  {
+    "version": 0.5,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0x33df6ad8f2208d8f575076e59fda6e195ef5c1908f0dae9e461a1aada7c12418::SNZ::SNZ",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/SNZ.png",
+      "name": "Tissue",
+      "source": "aptos",
+      "symbol": "SNZ",
+      "symbolWithBridge": "SNZ",
+      "reserve": "672984331148491",
+      "reserveUsd": "1829.4505516191803745",
+      "priceUsd": 0.0000027184147786875
+    },
+    "coinY": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "37118294615",
+      "reserveUsd": "1848.491071827",
+      "priceUsd": 4.98
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0x33df6ad8f2208d8f575076e59fda6e195ef5c1908f0dae9e461a1aada7c12418::SNZ::SNZ,0x1::aptos_coin::AptosCoin,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Uncorrelated>",
+    "fee": "30",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1752103812",
+    "normalizedFee": 0.003,
+    "tvl": "3677.3658042636584",
+    "apr": 0.011408795173116708,
+    "volume24": 0,
+    "stats": {
+      "pool": "APT-SNZ",
+      "curve": "Uncorrelated",
+      "version": "v0.5",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 3677.3658042636584
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 2.6820108918929098
+      }
+    }
+  },
+  {
+    "version": 0.5,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0x8e36c188da866c4faccb1ace68a33cca40149d942953a6b6a9976e709396ddb8::BEARD::BEARD",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/BEARD.png",
+      "name": "$BEARD",
+      "source": "aptos",
+      "symbol": "BEARD",
+      "symbolWithBridge": "BEARD",
+      "reserve": "821532645126118",
+      "reserveUsd": "1301.5955359779757248",
+      "priceUsd": 0.0000015843503526
+    },
+    "coinY": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "29331914909",
+      "reserveUsd": "1460.7293624682",
+      "priceUsd": 4.98
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0x8e36c188da866c4faccb1ace68a33cca40149d942953a6b6a9976e709396ddb8::BEARD::BEARD,0x1::aptos_coin::AptosCoin,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Uncorrelated>",
+    "fee": "30",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1751925664",
+    "normalizedFee": 0.003,
+    "tvl": "2733.7343800048993",
+    "apr": null,
+    "volume24": 0,
+    "stats": {
+      "pool": "APT-BEARD",
+      "curve": "Uncorrelated",
+      "version": "v0.5",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 2733.7343800048993
+      }
+    }
+  },
+  {
+    "version": 0.5,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0x2ac1304f147af6f3e3362c64f1c9c95dd84f67a8d6e300185e22c5a6f8f661af::PUPTOS::PUPTOS",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/PUPTOS.png",
+      "name": "PUPTOS",
+      "source": "aptos",
+      "symbol": "PUPTOS",
+      "symbolWithBridge": "PUPTOS",
+      "reserve": "369614947530516",
+      "reserveUsd": "3378.4795213805639003",
+      "priceUsd": 0.00000914053813016215
+    },
+    "coinY": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "71664557152",
+      "reserveUsd": "3568.8949461696",
+      "priceUsd": 4.98
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0x2ac1304f147af6f3e3362c64f1c9c95dd84f67a8d6e300185e22c5a6f8f661af::PUPTOS::PUPTOS,0x1::aptos_coin::AptosCoin,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Uncorrelated>",
+    "fee": "30",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1752178605",
+    "normalizedFee": 0.003,
+    "tvl": "6701.4613017561205",
+    "apr": 0.23859950614412284,
+    "volume24": 0,
+    "stats": {
+      "pool": "APT-PUPTOS",
+      "curve": "Uncorrelated",
+      "version": "v0.5",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 6701.4613017561205
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 102.21696346393358
+      }
+    }
+  },
+  {
+    "version": 0.5,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0x2d4de7378c573dadc2e589892d709ee24f3c26f23b57804f384f4803da2e6f0a::ZIPO::ZIPO",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/ZIPO.png",
+      "name": "ZIPPO THE OG MASCOT",
+      "source": "aptos",
+      "symbol": "ZIPO",
+      "symbolWithBridge": "ZIPO",
+      "reserve": "332362332935690",
+      "reserveUsd": "3616.4149728006615459",
+      "priceUsd": 0.0000108809411128439
+    },
+    "coinY": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "78920918063",
+      "reserveUsd": "3930.2617195374",
+      "priceUsd": 4.98
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0x2d4de7378c573dadc2e589892d709ee24f3c26f23b57804f384f4803da2e6f0a::ZIPO::ZIPO,0x1::aptos_coin::AptosCoin,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Uncorrelated>",
+    "fee": "30",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1752129161",
+    "normalizedFee": 0.003,
+    "tvl": "7365.210431447396",
+    "apr": 0.000014392768832408256,
+    "volume24": 0,
+    "stats": {
+      "pool": "APT-ZIPO",
+      "curve": "Uncorrelated",
+      "version": "v0.5",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 7365.210431447396
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 0.006776624639205933
+      }
+    }
+  },
+  {
+    "version": 0.5,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0x24dc0c6bd0a98f31961589e6432a8038833128f7c802ba148172553987c379f::MEOW::MEOW",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/MEOW.png",
+      "name": "MEOW MONEY",
+      "source": "aptos",
+      "symbol": "MEOW",
+      "symbolWithBridge": "MEOW",
+      "reserve": "159966383324406",
+      "reserveUsd": "7842.2176667770647848",
+      "priceUsd": 0.0000490241606005015
+    },
+    "coinY": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "167628906295",
+      "reserveUsd": "8347.919533491",
+      "priceUsd": 4.98
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0x24dc0c6bd0a98f31961589e6432a8038833128f7c802ba148172553987c379f::MEOW::MEOW,0x1::aptos_coin::AptosCoin,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Uncorrelated>",
+    "fee": "30",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1752177674",
+    "normalizedFee": 0.003,
+    "tvl": "15631.540317349572",
+    "apr": 2.5691603606367472,
+    "volume24": 0,
+    "stats": {
+      "pool": "APT-MEOW",
+      "curve": "Uncorrelated",
+      "version": "v0.5",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 15631.540317349572
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 2567.3017014904826
+      }
+    }
+  },
+  {
+    "version": 0.5,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0xaf1077397a61aebda08ff61dfebd571ccdf7a777618b8d66832b5ab0656852bd::FOG::FOG",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/FOG.jpg",
+      "name": "FAG DOG COIN",
+      "source": "aptos",
+      "symbol": "FOG",
+      "symbolWithBridge": "FOG",
+      "reserve": "707217221485110",
+      "priceUsd": 0
+    },
+    "coinY": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "36473684464",
+      "reserveUsd": "1816.3894863072",
+      "priceUsd": 4.98
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0xaf1077397a61aebda08ff61dfebd571ccdf7a777618b8d66832b5ab0656852bd::FOG::FOG,0x1::aptos_coin::AptosCoin,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Uncorrelated>",
+    "fee": "30",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1751546813",
+    "normalizedFee": 0.003,
+    "tvl": "3399.347280735948",
+    "apr": null,
+    "volume24": 0,
+    "stats": {
+      "pool": "APT-FOG",
+      "curve": "Uncorrelated",
+      "version": "v0.5",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 3399.347280735948
+      }
+    }
+  },
+  {
+    "version": 0.5,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0x5e975e7f36f2658d4cf146142899c659464a3e0d90f0f4d5f8b2447173c06ef6::EDOG::EDOG",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/edog.png",
+      "name": "EDOG",
+      "source": "aptos",
+      "symbol": "EDOG",
+      "symbolWithBridge": "EDOG",
+      "reserve": "345466662705786",
+      "reserveUsd": "3739.8128632990810358",
+      "priceUsd": 0.0000108253943636931
+    },
+    "coinY": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "74938754932",
+      "reserveUsd": "3731.9499956136",
+      "priceUsd": 4.98
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0x5e975e7f36f2658d4cf146142899c659464a3e0d90f0f4d5f8b2447173c06ef6::EDOG::EDOG,0x1::aptos_coin::AptosCoin,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Uncorrelated>",
+    "fee": "1",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1752211329",
+    "normalizedFee": 0.0001,
+    "tvl": "6984.2850533740875",
+    "apr": 0.008815410294683357,
+    "volume24": 66.74872300465243,
+    "stats": {
+      "pool": "APT-EDOG",
+      "curve": "Uncorrelated",
+      "version": "v0.5",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 6984.2850533740875
+      },
+      "volume24H": {
+        "timestamp": "1752105600",
+        "value": 66.74872300465243
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 118.07818315715592
+      }
+    }
+  },
+  {
+    "version": 0.5,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0xc95e07a20f94acb04f1188b51bafbbeec93363760c066f4ced3884a48137da8a::GHO::GHO",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/ghost.png",
+      "name": "GHOST",
+      "source": "aptos",
+      "symbol": "GHO",
+      "symbolWithBridge": "GHO",
+      "reserve": "765721719356714",
+      "priceUsd": 0
+    },
+    "coinY": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "31352960608",
+      "reserveUsd": "1561.3774382784",
+      "priceUsd": 4.98
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0xc95e07a20f94acb04f1188b51bafbbeec93363760c066f4ced3884a48137da8a::GHO::GHO,0x1::aptos_coin::AptosCoin,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Uncorrelated>",
+    "fee": "30",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1750429238",
+    "normalizedFee": 0.003,
+    "tvl": "2922.0958329839573",
+    "apr": null,
+    "volume24": 0,
+    "stats": {
+      "pool": "APT-GHO",
+      "curve": "Uncorrelated",
+      "version": "v0.5",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 2922.0958329839573
+      }
+    }
+  },
+  {
+    "version": 0.5,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0x55c833f3c668dd863d3848d306e426a33eac615bb93be03fe3a2f721701fec1::UPDOG::UPDOG",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/updog.png",
+      "name": "UPDOG",
+      "source": "aptos",
+      "symbol": "UPDOG",
+      "symbolWithBridge": "UPDOG",
+      "reserve": "377508987347746",
+      "reserveUsd": "3560.7419634784795895",
+      "priceUsd": 0.00000943220448470666
+    },
+    "coinY": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "76145824926",
+      "reserveUsd": "3792.0620813148",
+      "priceUsd": 4.98
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0x55c833f3c668dd863d3848d306e426a33eac615bb93be03fe3a2f721701fec1::UPDOG::UPDOG,0x1::aptos_coin::AptosCoin,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Uncorrelated>",
+    "fee": "30",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1752177632",
+    "normalizedFee": 0.003,
+    "tvl": "1230.1430270599708",
+    "apr": 2.3401833001104255,
+    "volume24": 0,
+    "stats": {
+      "pool": "APT-UPDOG",
+      "curve": "Uncorrelated",
+      "version": "v0.5",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 1230.1430270599708
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 184.03033041745402
+      }
+    }
+  },
+  {
+    "version": 0.5,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0x744467880fbc1a723d8ba8437cd6de3de942789fe6611fc992de8574596c9b5c::CMT::CMT",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/CMT.png",
+      "name": "Cryptomolot",
+      "source": "aptos",
+      "symbol": "CMT",
+      "symbolWithBridge": "CMT",
+      "reserve": "710662087235800",
+      "reserveUsd": "1498.2626226803284786",
+      "priceUsd": 0.00000210826305439761
+    },
+    "coinY": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "33849938708",
+      "reserveUsd": "1685.7269476584",
+      "priceUsd": 4.98
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0x744467880fbc1a723d8ba8437cd6de3de942789fe6611fc992de8574596c9b5c::CMT::CMT,0x1::aptos_coin::AptosCoin,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Uncorrelated>",
+    "fee": "30",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1751759419",
+    "normalizedFee": 0.003,
+    "tvl": "3154.814184283785",
+    "apr": null,
+    "volume24": 0,
+    "stats": {
+      "pool": "APT-CMT",
+      "curve": "Uncorrelated",
+      "version": "v0.5",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 3154.814184283785
+      }
+    }
+  },
+  {
+    "version": 0.5,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0x68495e47585861928e07e1fc629501b06822b230508bcf05c4fc19bec9a82405::MOTOS::MOTOS",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/MOTOS.jpg",
+      "name": "MOTOS",
+      "source": "aptos",
+      "symbol": "MOTOS",
+      "symbolWithBridge": "MOTOS",
+      "reserve": "777414537236903",
+      "priceUsd": 0
+    },
+    "coinY": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "32440368146",
+      "reserveUsd": "1615.5303336708",
+      "priceUsd": 4.98
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0x68495e47585861928e07e1fc629501b06822b230508bcf05c4fc19bec9a82405::MOTOS::MOTOS,0x1::aptos_coin::AptosCoin,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Uncorrelated>",
+    "fee": "30",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1751565453",
+    "normalizedFee": 0.003,
+    "tvl": "3023.4422122070528",
+    "apr": null,
+    "volume24": 0,
+    "stats": {
+      "pool": "APT-MOTOS",
+      "curve": "Uncorrelated",
+      "version": "v0.5",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 3023.4422122070528
+      }
+    }
+  },
+  {
+    "version": 0.5,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0x2f277e648b3761b65818d92f0a7c151cb38a1d33b1a8b18d4c5748bbcd9fcca5::Netzy::Netzy",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/NETZY.jpg",
+      "name": "The Mole Netzy",
+      "source": "aptos",
+      "symbol": "Netzy",
+      "symbolWithBridge": "Netzy",
+      "reserve": "864739328463206",
+      "reserveUsd": "1305.6771289429601295",
+      "priceUsd": 0.00000150990834574782
+    },
+    "coinY": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "28093173705",
+      "reserveUsd": "1399.040050509",
+      "priceUsd": 4.98
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0x2f277e648b3761b65818d92f0a7c151cb38a1d33b1a8b18d4c5748bbcd9fcca5::Netzy::Netzy,0x1::aptos_coin::AptosCoin,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Uncorrelated>",
+    "fee": "30",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1752096869",
+    "normalizedFee": 0.003,
+    "tvl": "2618.2837035724374",
+    "apr": null,
+    "volume24": 0,
+    "stats": {
+      "pool": "APT-Netzy",
+      "curve": "Uncorrelated",
+      "version": "v0.5",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 2618.2837035724374
+      }
+    }
+  },
+  {
+    "version": 0.5,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0xce1a44fa48a726258a11a499797bc38befa6bc2ef4019b686c59e0a301b1a1c8::BUBU::BUBU",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/BUBU.png",
+      "name": "LABUBUTOS",
+      "source": "aptos",
+      "symbol": "BUBU",
+      "symbolWithBridge": "BUBU",
+      "reserve": "775101447819307",
+      "reserveUsd": "1407.6129551283730022",
+      "priceUsd": 0.00000181603706081132
+    },
+    "coinY": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "32160217346",
+      "reserveUsd": "1601.5788238308",
+      "priceUsd": 4.98
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0xce1a44fa48a726258a11a499797bc38befa6bc2ef4019b686c59e0a301b1a1c8::BUBU::BUBU,0x1::aptos_coin::AptosCoin,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Uncorrelated>",
+    "fee": "30",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1751777776",
+    "normalizedFee": 0.003,
+    "tvl": "2997.3321585020053",
+    "apr": 0.010099037961052755,
+    "volume24": 0,
+    "stats": {
+      "pool": "APT-BUBU",
+      "curve": "Uncorrelated",
+      "version": "v0.5",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 2997.3321585020053
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 1.9350794406773664
+      }
+    }
+  },
+  {
+    "version": 0.5,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0x541e21bc602730511c0b2de1dbb8e77e5e16031931a955dc988bbed3f600b510::Rice::Rice",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/RICE.png",
+      "name": "Rice Token",
+      "source": "aptos",
+      "symbol": "Rice",
+      "symbolWithBridge": "RICE",
+      "reserve": "907692873534732",
+      "priceUsd": 0
+    },
+    "coinY": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "26519861995",
+      "reserveUsd": "1320.689127351",
+      "priceUsd": 4.98
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0x541e21bc602730511c0b2de1dbb8e77e5e16031931a955dc988bbed3f600b510::Rice::Rice,0x1::aptos_coin::AptosCoin,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Uncorrelated>",
+    "fee": "30",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1749916023",
+    "normalizedFee": 0.003,
+    "tvl": "2471.6510570018036",
+    "apr": null,
+    "volume24": 0,
+    "stats": {
+      "pool": "APT-Rice",
+      "curve": "Uncorrelated",
+      "version": "v0.5",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 2471.6510570018036
+      }
+    }
+  },
+  {
+    "version": 0.5,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0xbd92f54e3ebf1e80a0efa05f8bbd607fc6dd00ec208c0d743ee6ba3c10f03846::APOP::APOP",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/APOP.jpg",
+      "name": "Apeople Coin",
+      "source": "aptos",
+      "symbol": "APOP",
+      "symbolWithBridge": "APOP",
+      "reserve": "734256024293434",
+      "reserveUsd": "1634.519510971884985",
+      "priceUsd": 0.00000222608934335236
+    },
+    "coinY": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "32751381736",
+      "reserveUsd": "1631.0188104528",
+      "priceUsd": 4.98
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0xbd92f54e3ebf1e80a0efa05f8bbd607fc6dd00ec208c0d743ee6ba3c10f03846::APOP::APOP,0x1::aptos_coin::AptosCoin,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Uncorrelated>",
+    "fee": "30",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1752223647",
+    "normalizedFee": 0.003,
+    "tvl": "3092.995135739199",
+    "apr": 0.0022813912280764534,
+    "volume24": 3.155534063455696,
+    "stats": {
+      "pool": "APOP-APT",
+      "curve": "Uncorrelated",
+      "version": "v0.5",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 3092.995135739199
+      },
+      "volume24H": {
+        "timestamp": "1752105600",
+        "value": 3.155534063455696
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 0.4510897150512314
+      }
+    }
+  },
+  {
+    "version": 0.5,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0x10a51c8275d90165aec142e326fcd9dc2e8def57d6271a86ef38a0e5a0a8e142::DWIF::DWIF",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/DWIF.jpg",
+      "name": "DOGWIFHAIR",
+      "source": "aptos",
+      "symbol": "DWIF",
+      "symbolWithBridge": "DWIF",
+      "reserve": "701981548974352",
+      "reserveUsd": "1574.308127213030955",
+      "priceUsd": 0.00000224266311488274
+    },
+    "coinY": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "35197488337",
+      "reserveUsd": "1752.8349191826",
+      "priceUsd": 4.98
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0x10a51c8275d90165aec142e326fcd9dc2e8def57d6271a86ef38a0e5a0a8e142::DWIF::DWIF,0x1::aptos_coin::AptosCoin,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Uncorrelated>",
+    "fee": "30",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1752011518",
+    "normalizedFee": 0.003,
+    "tvl": "3280.4058055941896",
+    "apr": null,
+    "volume24": 0,
+    "stats": {
+      "pool": "APT-DWIF",
+      "curve": "Uncorrelated",
+      "version": "v0.5",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 3280.4058055941896
+      }
+    }
+  },
+  {
+    "version": 0.5,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0x1605f6d99b995e8ddb6200fdccccf97a2497fe1f024a46f6c178a501f0d1b60e::ACAT::ACAT",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/ACAT.png",
+      "name": "AptoCat",
+      "source": "aptos",
+      "symbol": "ACAT",
+      "symbolWithBridge": "ACAT",
+      "reserve": "736229891821012",
+      "reserveUsd": "1610.8491980520849744",
+      "priceUsd": 0.00000218797038254962
+    },
+    "coinY": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "34661635173",
+      "reserveUsd": "1726.1494316154",
+      "priceUsd": 4.98
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0x1605f6d99b995e8ddb6200fdccccf97a2497fe1f024a46f6c178a501f0d1b60e::ACAT::ACAT,0x1::aptos_coin::AptosCoin,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Uncorrelated>",
+    "fee": "30",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1752096945",
+    "normalizedFee": 0.003,
+    "tvl": "3230.4642923446836",
+    "apr": null,
+    "volume24": 0,
+    "stats": {
+      "pool": "ACAT-APT",
+      "curve": "Uncorrelated",
+      "version": "v0.5",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 3230.4642923446836
+      }
+    }
+  },
+  {
+    "version": 0.5,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0xbafe0208ba2a3ea2c66a6868f9361a13f4014490e9b77fb0364c5cf55340ffbe::AMAGA::AMAGA",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/AMAGA.jpg",
+      "name": "Aptos MAGA",
+      "source": "aptos",
+      "symbol": "AMAGA",
+      "symbolWithBridge": "AMAGA",
+      "reserve": "794858572972558",
+      "reserveUsd": "1522.1432753260887708",
+      "priceUsd": 0.00000191498629703858
+    },
+    "coinY": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "30636064884",
+      "reserveUsd": "1525.6760312232",
+      "priceUsd": 4.98
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0xbafe0208ba2a3ea2c66a6868f9361a13f4014490e9b77fb0364c5cf55340ffbe::AMAGA::AMAGA,0x1::aptos_coin::AptosCoin,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Uncorrelated>",
+    "fee": "30",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1752190161",
+    "normalizedFee": 0.003,
+    "tvl": "2903.7929004236717",
+    "apr": null,
+    "volume24": 0,
+    "stats": {
+      "pool": "AMAGA-APT",
+      "curve": "Uncorrelated",
+      "version": "v0.5",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 2903.7929004236717
+      }
+    }
+  },
+  {
+    "version": 0.5,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0xa331c0ce4c558895772ac3e61c85fa441500e3536ecfbdefbb167698d153d6c3::DMAGA::DMAGA",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/DMAGA.png",
+      "name": "DMAGA",
+      "source": "aptos",
+      "symbol": "DMAGA",
+      "symbolWithBridge": "DMAGA",
+      "reserve": "930690541394516",
+      "priceUsd": 0
+    },
+    "coinY": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "25522446551",
+      "reserveUsd": "1271.0178382398",
+      "priceUsd": 4.98
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0xa331c0ce4c558895772ac3e61c85fa441500e3536ecfbdefbb167698d153d6c3::DMAGA::DMAGA,0x1::aptos_coin::AptosCoin,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Uncorrelated>",
+    "fee": "30",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1745851906",
+    "normalizedFee": 0.003,
+    "tvl": "2378.691940664874",
+    "apr": null,
+    "volume24": 0,
+    "stats": {
+      "pool": "APT-DMAGA",
+      "curve": "Uncorrelated",
+      "version": "v0.5",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 2378.691940664874
+      }
+    }
+  },
+  {
+    "version": 0.5,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0x8512b34017e087c3707748869ddc317d83f3fe70ab3a162abdc055c761ca9906::OBOT::OBOT",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/obot.png",
+      "name": "OBOT",
+      "source": "aptos",
+      "symbol": "OBOT",
+      "symbolWithBridge": "OBOT",
+      "reserve": "44637680227309",
+      "reserveUsd": "23.239671930721204582",
+      "priceUsd": 0.0000520629024904017
+    },
+    "coinY": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "497309190",
+      "reserveUsd": "24.765997662",
+      "priceUsd": 4.98
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0x8512b34017e087c3707748869ddc317d83f3fe70ab3a162abdc055c761ca9906::OBOT::OBOT,0x1::aptos_coin::AptosCoin,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Uncorrelated>",
+    "fee": "30",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1752100739",
+    "normalizedFee": 0.003,
+    "tvl": null,
+    "apr": null,
+    "volume24": 0
+  },
+  {
+    "version": 0.5,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0x96baeee6d7a4a8cd712144d1225cfcb6c26d0c6fefd463bd77a878e4526c7411::hair_coin::HairCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/hair.png",
+      "name": "Hair",
+      "source": "aptos",
+      "symbol": "HAIR",
+      "symbolWithBridge": "HAIR",
+      "reserve": "111619364292283092",
+      "reserveUsd": "10269.450889050962135",
+      "priceUsd": 0.00000920042051320028
+    },
+    "coinY": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "205383281838",
+      "reserveUsd": "10228.0874355324",
+      "priceUsd": 4.98
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0x96baeee6d7a4a8cd712144d1225cfcb6c26d0c6fefd463bd77a878e4526c7411::hair_coin::HairCoin,0x1::aptos_coin::AptosCoin,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Uncorrelated>",
+    "fee": "30",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1752211154",
+    "normalizedFee": 0.003,
+    "tvl": null,
+    "apr": null,
+    "volume24": 0
+  },
+  {
+    "version": 0.5,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0x135726730c0e4e71652a6726354f148dec46974d5c152b0042ad58b37ea3c864::FaptOS::FaptOS",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/FAPTOS.png",
+      "name": "FaptOS",
+      "source": "aptos",
+      "symbol": "FaptOS",
+      "symbolWithBridge": "FaptOS",
+      "reserve": "819147640540084",
+      "reserveUsd": "1395.4859350527969643",
+      "priceUsd": 0.00000170358292692233
+    },
+    "coinY": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "29866201958",
+      "reserveUsd": "1487.3368575084",
+      "priceUsd": 4.98
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0x135726730c0e4e71652a6726354f148dec46974d5c152b0042ad58b37ea3c864::FaptOS::FaptOS,0x1::aptos_coin::AptosCoin,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Uncorrelated>",
+    "fee": "30",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1752098631",
+    "normalizedFee": 0.003,
+    "tvl": "2783.5299313411847",
+    "apr": null,
+    "volume24": 0,
+    "stats": {
+      "pool": "APT-FaptOS",
+      "curve": "Uncorrelated",
+      "version": "v0.5",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 2783.5299313411847
+      }
+    }
+  },
+  {
+    "version": 0.5,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0xc5fbbcc4637aeebb4e732767abee8a21f2b0776f73b73e16ce13e7d31d6700da::MOOMOO::MOOMOO",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/moomoo.png",
+      "name": "MOO MOO",
+      "source": "aptos",
+      "symbol": "MOOMOO",
+      "symbolWithBridge": "MOOMOO",
+      "reserve": "461057334518334",
+      "reserveUsd": "4659.0514693691458356",
+      "priceUsd": 0.000010105145543854
+    },
+    "coinY": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "94970936746",
+      "reserveUsd": "4729.5526499508",
+      "priceUsd": 4.98
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0xc5fbbcc4637aeebb4e732767abee8a21f2b0776f73b73e16ce13e7d31d6700da::MOOMOO::MOOMOO,0x1::aptos_coin::AptosCoin,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Uncorrelated>",
+    "fee": "30",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1752218589",
+    "normalizedFee": 0.003,
+    "tvl": "7052.212096901471",
+    "apr": 0.3424779101614205,
+    "volume24": 892.9855835586734,
+    "stats": {
+      "pool": "APT-MOOMOO",
+      "curve": "Uncorrelated",
+      "version": "v0.5",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 7052.212096901471
+      },
+      "volume24H": {
+        "timestamp": "1752105600",
+        "value": 892.9855835586734
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 154.39806417108068
+      }
+    }
+  },
+  {
+    "version": 0.5,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0x9770fa9c725cbd97eb50b2be5f7416efdfd1f1554beb0750d4dae4c64e860da3::wrapped_coins::WrappedAMA",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/ama.png",
+      "name": "Amaterasu",
+      "source": "aptos",
+      "symbol": "AMA",
+      "symbolWithBridge": "AMA",
+      "reserve": "1289203569469",
+      "priceUsd": 0
+    },
+    "coinY": {
+      "type": "0x9770fa9c725cbd97eb50b2be5f7416efdfd1f1554beb0750d4dae4c64e860da3::fa_to_coin_wrapper::WrappedUSDT",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/usdt-fa.svg",
+      "name": "Tether USD",
+      "source": "tether",
+      "symbol": "USDt",
+      "symbolWithBridge": "WrappedUSDT",
+      "reserve": "7925933",
+      "reserveUsd": "8.0402413863120848529",
+      "priceUsd": 1.01442207325145
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0x9770fa9c725cbd97eb50b2be5f7416efdfd1f1554beb0750d4dae4c64e860da3::wrapped_coins::WrappedAMA,0x9770fa9c725cbd97eb50b2be5f7416efdfd1f1554beb0750d4dae4c64e860da3::fa_to_coin_wrapper::WrappedUSDT,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Uncorrelated>",
+    "fee": "30",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1750085422",
+    "normalizedFee": 0.003,
+    "tvl": null,
+    "apr": null,
+    "volume24": 0
+  },
+  {
+    "version": 0.5,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0x9d0595765a31f8d56e1d2aafc4d6c76f283c67a074ef8812d8c31bd8252ac2c3::asset::TOMA",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/TOMA.png",
+      "name": "Tomarket",
+      "source": "aptos",
+      "symbol": "TOMA",
+      "symbolWithBridge": "TOMA",
+      "reserve": "31571766248786484",
+      "reserveUsd": "22050.749450118667783",
+      "priceUsd": 6.98432557632604e-7
+    },
+    "coinY": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "442926986515",
+      "reserveUsd": "22057.763928447",
+      "priceUsd": 4.98
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0x9d0595765a31f8d56e1d2aafc4d6c76f283c67a074ef8812d8c31bd8252ac2c3::asset::TOMA,0x1::aptos_coin::AptosCoin,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Uncorrelated>",
+    "fee": "30",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1752226674",
+    "normalizedFee": 0.003,
+    "tvl": "42028.36531282349",
+    "apr": 0.6551040097710638,
+    "volume24": 200.5587022081404,
+    "stats": {
+      "pool": "APT-TOMA",
+      "curve": "Uncorrelated",
+      "version": "v0.5",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 42028.36531282349
+      },
+      "volume24H": {
+        "timestamp": "1752105600",
+        "value": 200.5587022081404
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 1760.0973012226145
+      }
+    }
+  },
+  {
+    "version": 0.5,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "1419140700267",
+      "reserveUsd": "70673.2068732966",
+      "priceUsd": 4.98
+    },
+    "coinY": {
+      "type": "0x9d4d8a8f1551317276bc2fbf924e7adf82b722b72f4f914dcfb6cc1811bc383f::Sidelined::Sidelined",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/sidelined.webp",
+      "name": "sidelined?",
+      "source": "aptos",
+      "symbol": "Sidelined",
+      "symbolWithBridge": "Sidelined",
+      "reserve": "24834098777341",
+      "reserveUsd": "70615.568130513566287",
+      "priceUsd": 0.00284349227904917
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0x1::aptos_coin::AptosCoin,0x9d4d8a8f1551317276bc2fbf924e7adf82b722b72f4f914dcfb6cc1811bc383f::Sidelined::Sidelined,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Uncorrelated>",
+    "fee": "30",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1752218729",
+    "normalizedFee": 0.003,
+    "tvl": "135094.1450940213",
+    "apr": 2.1524398050113707,
+    "volume24": 1578.8367815438805,
+    "stats": {
+      "pool": "APT-Sidelined",
+      "curve": "Uncorrelated",
+      "version": "v0.5",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 135094.1450940213
+      },
+      "volume24H": {
+        "timestamp": "1752105600",
+        "value": 1578.8367815438805
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 18588.804632607043
+      }
+    }
+  },
+  {
+    "version": 0.5,
+    "curve": "unstable",
+    "coinX": {
+      "type": "0x3fb7291a814eea979045f0bdb6b128a2a4f59533edad9d792069221586b92ab5::GEM::GEM",
+      "decimals": 6,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/GEM.png",
+      "name": "GEM",
+      "source": "aptos",
+      "symbol": "GEM",
+      "symbolWithBridge": "GEM",
+      "reserve": "83206679763199",
+      "reserveUsd": "17263.993017057032958",
+      "priceUsd": 0.000207483258149337
+    },
+    "coinY": {
+      "type": "0x1::aptos_coin::AptosCoin",
+      "decimals": 8,
+      "chainId": 1,
+      "logoUrl": "https://raw.githubusercontent.com/pontem-network/coins-registry/main/src/coins-logos/apt.svg",
+      "name": "Aptos Coin",
+      "source": "aptos",
+      "symbol": "APT",
+      "symbolWithBridge": "APT",
+      "reserve": "348193467074",
+      "reserveUsd": "17340.0346602852",
+      "priceUsd": 4.98
+    },
+    "networkId": 1,
+    "type": "0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::liquidity_pool::LiquidityPool<0x3fb7291a814eea979045f0bdb6b128a2a4f59533edad9d792069221586b92ab5::GEM::GEM,0x1::aptos_coin::AptosCoin,0x163df34fccbf003ce219d3f1d9e70d140b60622cb9dd47599c25fb2f797ba6e::curves::Uncorrelated>",
+    "fee": "30",
+    "lpReserve": "1000",
+    "lastBlockTimestamp": "1752223516",
+    "normalizedFee": 0.003,
+    "tvl": "42374.19667614392",
+    "apr": 1.2022240443764984,
+    "volume24": 28892.134287589375,
+    "stats": {
+      "pool": "APT-GEM",
+      "curve": "Uncorrelated",
+      "version": "v0.5",
+      "tvl": {
+        "timestamp": "1752105600",
+        "value": 42374.19667614392
+      },
+      "volume24H": {
+        "timestamp": "1752105600",
+        "value": 28892.134287589375
+      },
+      "volume7D": {
+        "timestamp": "1752105600",
+        "value": 3256.647915400844
+      }
+    }
+  }
+]
